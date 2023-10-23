@@ -9,7 +9,7 @@ permalink: /
 
 <p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
   당당한 개발자가 되기 위한 자기 분석
-  <span style="font-weight: bold">[[CS 6대 과목 공부 계획]]</span>
+  <span style="font-weight: bold">[[자기 소개]]</span>
 </p>
 
 <p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
