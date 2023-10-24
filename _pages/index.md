@@ -17,7 +17,7 @@ permalink: /
   </ul>
 </div>
 
-<div>
+<div class="graph_background">
   <div>{% include notes_graph.html %}</div>
 </div>
 
@@ -37,7 +37,6 @@ permalink: /
     max-width: 46em;
   }
   .graph_background {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border: 1px solid black;
   }
 </style>
