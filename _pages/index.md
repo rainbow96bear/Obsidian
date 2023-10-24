@@ -36,4 +36,8 @@ permalink: /
   .wrapper {
     max-width: 46em;
   }
+  .graph_background {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
 </style>
