@@ -16,6 +16,9 @@ permalink: /
   기본을 쌓기 위한 기초공부 계획
   <span style="font-weight: bold">[[CS 6대 과목 공부 계획]]</span>
 </p>
+<div>
+  <div>{% include notes_graph.html %}</div>
+</div>
 
 <strong>Recently updated notes</strong>
 
