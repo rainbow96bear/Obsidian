@@ -3,8 +3,6 @@
 Entity Relationship Diagram의 약자
 시스템의 Entity들이 무엇이 있는지 어떤 관계가 있는지를 나타내는 다이어그램
 
-![[20231025094948.png]]
-
 <img src="/assets/20231025094948.png">
 
 |              없어도 된다               |              하나가 있다               |              여러 개 있다              |
