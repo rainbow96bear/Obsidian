@@ -5,7 +5,7 @@ id: home
 permalink: /
 ---
 
-# <img src = "/assets/favicon.png" width="100px" height="100px"> 무지개곰의 개발자 공부 기록!
+# 🌈 무지개곰의 개발자 공부 기록!
 
 <div>
   <h3> 목차 </h3>
