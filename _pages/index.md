@@ -5,11 +5,9 @@ id: home
 permalink: /
 ---
 
-<div class = "mainImage">
-  <img width= "100px" src="/assets/favicon.png">
-</div>
+![[Pasted image favicon.png]]
 
-# 무지개곰의 개발자 공부 기록!
+# ![[Pasted image favicon.png]] 무지개곰의 개발자 공부 기록!
 
 <div>
   <h3> 목차 </h3>
@@ -42,9 +40,5 @@ permalink: /
   }
   .graph_background {
     border: 1px solid black;
-  }
-  .mainImage {
-    width : 100%;
-    float : left;
   }
 </style>
