@@ -49,5 +49,12 @@ layout: default
 <hr />
 
 <p>공부 기록 그래프</p>
+<div class="graph_background">
+  <div>{% include notes_graph.html %}</div>
+</div>
 
-{% include notes_graph.html %}
+<style>
+  .graph_background {
+    border: 1px solid black;
+  }
+</style>
