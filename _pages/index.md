@@ -5,7 +5,8 @@ id: home
 permalink: /
 ---
 
-# 무지개곰의 개발자 공부 기록! 🌱
+<img src="/assets/favicon.png">
+# 무지개곰의 개발자 공부 기록!
 
 <div>
   <h3> 목차 </h3>
