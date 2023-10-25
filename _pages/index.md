@@ -5,7 +5,9 @@ id: home
 permalink: /
 ---
 
-<img width= "200px" src="/assets/favicon.png">
+<div class = "mainImage">
+  <img width= "200px" src="/assets/favicon.png">
+</div>
 
 # 무지개곰의 개발자 공부 기록!
 
@@ -40,5 +42,8 @@ permalink: /
   }
   .graph_background {
     border: 1px solid black;
+  }
+  .mainImage {
+    width : 100%;
   }
 </style>
