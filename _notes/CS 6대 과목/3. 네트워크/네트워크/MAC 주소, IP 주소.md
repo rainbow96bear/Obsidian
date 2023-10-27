@@ -46,30 +46,30 @@ IP 주소 : 135 . 135 . 135 . 135
 <thead>
 <tr>
 <th align="left"></th>
-<th align="center">2진법</th>
-<th align="center">10진법</th>
+<th align="center" style="padding: 10px;">2진법</th>
+<th align="center" style="padding: 10px;">10진법</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left">IP 주소</td>
-<td align="center">1000 0111 . 1000 0111 . 1000 0111 . 1000 0111</td>
-<td align="center">135.135.135.135</td>
+<td align="left" style="padding: 10px;">IP 주소</td>
+<td align="center" style="padding: 10px;">1000 0111 . 1000 0111 . 1000 0111 . 1000 0111</td>
+<td align="center" style="padding: 10px;">135.135.135.135</td>
 </tr>
 <tr>
-<td align="left">서브넷 마스크</td>
-<td align="center">1111 1111 . 1111 1111 . 1111 1111 . 1100 0000</td>
-<td align="center">255.255.255.192</td>
+<td align="left" style="padding: 10px;">서브넷 마스크</td>
+<td align="center" style="padding: 10px;">1111 1111 . 1111 1111 . 1111 1111 . 1100 0000</td>
+<td align="center" style="padding: 10px;">255.255.255.192</td>
 </tr>
 <tr>
-<td align="left">네트워크 주소</td>
-<td align="center">1000 0111 . 1000 0111 . 1000 0111 . 1000 0000</td>
-<td align="center">135.135.135.128</td>
+<td align="left" style="padding: 10px;">네트워크 주소</td>
+<td align="center" style="padding: 10px;">1000 0111 . 1000 0111 . 1000 0111 . 1000 0000</td>
+<td align="center" style="padding: 10px;">135.135.135.128</td>
 </tr>
 <tr>
-<td align="left">브로드캐스트 주소</td>
-<td align="center">1000 0111 . 1000 0111 . 1000 0111 . 1011 1111</td>
-<td align="center">135.135.135.191</td>
+<td align="left" style="padding: 10px;">브로드캐스트 주소</td>
+<td align="center" style="padding: 10px;">1000 0111 . 1000 0111 . 1000 0111 . 1011 1111</td>
+<td align="center" style="padding: 10px;">135.135.135.191</td>
 </tr>
 </tbody>
 </table>
