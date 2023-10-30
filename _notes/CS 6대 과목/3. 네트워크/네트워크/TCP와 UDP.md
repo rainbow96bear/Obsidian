@@ -30,31 +30,31 @@ TCP의 3방향 핸드셰이크를 사용하지 않는다.
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
-    <th style="padding: 10px; border: 1px solid black;">TCP</th>
-    <th style="padding: 10px; border: 1px solid black;">UDP</th>
+    <th style="padding: 10px; border: 1px solid black; text-align: center; width: 50%;">TCP</th>
+    <th style="padding: 10px; border: 1px solid black; text-align: center; width: 50%;">UDP</th>
   </tr>
   <tr>
-    <td style="padding: 10px; border: 1px solid black;">연결지향</td>
-    <td style="padding: 10px; border: 1px solid black;">비연결형</td>
+    <td style="padding: 10px; border: 1px solid black; text-align: center;">연결지향</td>
+    <td style="padding: 10px; border: 1px solid black; text-align: center;">비연결형</td>
   </tr>
   <tr>
-    <td style="padding: 10px; border: 1px solid black;">오류 제어 수행</td>
-    <td style="padding: 10px; border: 1px solid black;">오류 제어 수행 X</td>
+    <td style="padding: 10px; border: 1px solid black; text-align: center;">오류 제어 수행</td>
+    <td style="padding: 10px; border: 1px solid black; text-align: center;">오류 제어 수행 X</td>
   </tr>
   <tr>
-    <td style="padding: 10px; border: 1px solid black;">흐름 제어 수행</td>
-    <td style="padding: 10px; border: 1px solid black;">흐름 제어 수행 X</td>
+    <td style="padding: 10px; border: 1px solid black; text-align: center;">흐름 제어 수행</td>
+    <td style="padding: 10px; border: 1px solid black; text-align: center;">흐름 제어 수행 X</td>
   </tr>
   <tr>
-    <td style="padding: 10px; border: 1px solid black;">유니캐스트</td>
-    <td style="padding: 10px; border: 1px solid black;">유니캐스트, 멀티캐스트, 브로드캐스트</td>
+    <td style="padding: 10px; border: 1px solid black; text-align: center;">유니캐스트</td>
+    <td style="padding: 10px; border: 1px solid black; text-align: center;">유니캐스트, 멀티캐스트, 브로드캐스트</td>
   </tr>
   <tr>
-    <td style="padding: 10px; border: 1px solid black;">전이중(Full Duplex)</td>
-    <td style="padding: 10px; border: 1px solid black;">반이중(Half Duplex)</td>
+    <td style="padding: 10px; border: 1px solid black; text-align: center;">전이중(Full Duplex)</td>
+    <td style="padding: 10px; border: 1px solid black; text-align: center;">반이중(Half Duplex)</td>
   </tr>
   <tr>
-    <td style="padding: 10px; border: 1px solid black;">데이터 전송</td>
-    <td style="padding: 10px; border: 1px solid black;">실시간 트래픽 전송</td>
+    <td style="padding: 10px; border: 1px solid black; text-align: center;">데이터 전송</td>
+    <td style="padding: 10px; border: 1px solid black; text-align: center;">실시간 트래픽 전송</td>
   </tr>
 </table>
