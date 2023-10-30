@@ -19,9 +19,17 @@ Entity Relationship Diagram의 약자
     <td>
       <ol>
         <li>없거나 하나가 있다.</li>
+        <br>
+        <br>
         <li>없거나 여러 개 있다.</li>
+        <br>
+        <br>
         <li>없거나 하나 있거나 여러 개 있다.</li>
+        <br>
+        <br>
         <li>하나 있거나 여러 개 있다.</li>
+        <br>
+        <br>
         <li>오직 하나 있다.</li>
       </ol>
     </td>
