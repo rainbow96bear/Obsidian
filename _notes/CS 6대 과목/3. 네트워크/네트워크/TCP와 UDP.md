@@ -8,7 +8,7 @@ SYN, ACK 활용
 정보 유실을 방지하기 위한 사전 연결 작업
 3번의 패킷을 주고 받으며 통신을 준비하여 3방향 핸드셰이크
 
-<img src="/assets/Pasted image 20231030171039.png">
+<img src="/assets/Pasted image 20231031123638.png">
    
    
 ## 윈도 사이즈, 슬라이딩 윈도
@@ -19,7 +19,7 @@ SYN, ACK 활용
 - **윈도 사이즈** : 한 번에 받을 수 있는 데이터 크기
 - **슬라이딩 윈도** : 네트워크 상황에 따라 윈도 사이즈를 조절하는 것
 
-<img src="/assets/Pasted image 20231030171109.png">
+<img src="/assets/Pasted image 20231031123720.png">
 
 # **2. UDP란?**
 
