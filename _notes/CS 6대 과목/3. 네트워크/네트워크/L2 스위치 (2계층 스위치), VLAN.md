@@ -34,14 +34,14 @@ MAC주소와 스위치의 인터페이스 정보가 매핑되는 MAC주소 테�
 
 ### 포트 기반 VLAN
 
-포트에 따라 VLAN이 지정되는 방식
+포트에 따라 VLAN이 지정되는 방식   
 연결되는 포트가 달라지면 해당 포트의 VLAN에 접속
 
 <img src = "/assets/Pasted image 20231101150251.png">
 
 ### MAC주소 기반 VLAN
 
-MAC 주소에 따라 VLAN이 지정되는 방식
+MAC 주소에 따라 VLAN이 지정되는 방식   
 연결되는 포트가 변하여도 VLAN은 유지
 
 <img src = "/assets/Pasted image 20231101150910.png">
