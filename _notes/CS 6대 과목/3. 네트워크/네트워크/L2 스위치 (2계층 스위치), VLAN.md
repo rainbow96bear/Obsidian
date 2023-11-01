@@ -2,12 +2,11 @@
 
 네트워크에서 통신을 중재하는 장비
 
-
 ## L2 스위치 특징
 
 MAC주소와 스위치의 인터페이스 정보가 매핑되는 MAC주소 테이블이 존재
 
-<img src = "/asset/Pasted image 20231101145538.png">
+<img src = "/assets/Pasted image 20231101145538.png">
 
 ### 1. 플러딩
 
@@ -20,10 +19,9 @@ MAC주소와 스위치의 인터페이스 정보가 매핑되는 MAC주소 테�
 ### 3. 포워딩/필터링
 
 패킷이 스위치에 들어오는 경우 도착지 MAC 주소를 확인하여 MAC 테이블과 매칭하여 해당 포트로 전달하는 과정
+
 - 포워딩 : 목적지 MAC 주소에 해당하는 포트로 패킷을 전달
 - 필터링 : 목적지 MAC 주소 외의 포트에 전송을 방지
-
-
 
 # **2. VLAN이란?**
 
@@ -36,19 +34,18 @@ MAC주소와 스위치의 인터페이스 정보가 매핑되는 MAC주소 테�
 
 ### 포트 기반 VLAN
 
-<img src = "/asset/Pasted image 20231101150251.png">
+<img src = "/assets/Pasted image 20231101150251.png">
 
 ### MAC주소 기반 VLAN
 
-<img src = "/asset/Pasted image 20231101150910.png">
+<img src = "/assets/Pasted image 20231101150910.png">
 
 ## 태그 포트, 트렁크 포트
 
 서로 다른 L2 스위치 간 같은 VLAN끼리 통신을 하기 위하여 VLAN의 개수 만큼 Port를 연결해주어야하는 문제를 해결하기 위하여 하나의 포트로 여러 개의 VLAN을 전송하는 포트
 
-<img src = "/asset/Pasted image 20231101150451.png">
-
+<img src = "/assets/Pasted image 20231101150451.png">
 
 ### 프레임 비교
 
-<img src = "/asset/Pasted image 20231101151401.png">
+<img src = "/assets/Pasted image 20231101151401.png">
