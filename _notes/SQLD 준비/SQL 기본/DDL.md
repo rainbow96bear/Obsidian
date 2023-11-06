@@ -45,7 +45,7 @@
   </tr>
   <tr>
     <td style="padding: 10px; text-align: center;">VARCHAR</td>
-    <td style="padding: 10px;">가변 길이 문자열<br>지정된 길이보다 짧은 데이터는 공
+    <td style="padding: 10px;">가변 길이 문자열<br>지정된 길이보다 짧은 데이터는 공</td>
     </tr>
 </table>
 
