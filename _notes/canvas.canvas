@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"9b0acd498ab35f90","type":"file","file":"SQLD 준비/데이터 모델과 성능/정규화, 반정규화.md","x":400,"y":1400,"width":400,"height":400},
+		{"id":"0f6146fa41043e5c","type":"file","file":"SQLD 준비/데이터 모델과 성능/데이터 모델과 성능.md","x":-760,"y":1400,"width":400,"height":400},
+		{"id":"32580e0314867b73","type":"file","file":"SQLD 준비/SQL 기본/SQL 기본.md","x":-760,"y":2200,"width":400,"height":400},
+		{"id":"c00e4d760c5cc8c7","type":"file","file":"SQLD 준비/SQL 기본/DDL.md","x":400,"y":2720,"width":400,"height":400},
+		{"id":"3c55c8eadc4c8d15","type":"file","file":"SQLD 준비/SQL 기본/데이터 베이스 개요.md","x":400,"y":2200,"width":400,"height":400},
+		{"id":"3d48d69c0beab13e","type":"file","file":"CS 6대 과목/6. 데이터 베이스/데이터 베이스.md","x":-1840,"y":1400,"width":400,"height":400},
+		{"id":"9e04fdb1c305c72a","type":"file","file":"SQLD 준비/데이터 모델링의 이해/데이터 모델링의 이해.md","x":-760,"y":560,"width":400,"height":400},
+		{"id":"2b2e106769569568","type":"file","file":"SQLD 준비/데이터 모델링의 이해/데이터 모델링.md","x":400,"y":-1320,"width":400,"height":400},
+		{"id":"01fad0f9c22d4410","type":"file","file":"SQLD 준비/데이터 모델링의 이해/스키마.md","x":400,"y":-860,"width":400,"height":400},
+		{"id":"633080661f60d3b7","type":"file","file":"SQLD 준비/데이터 모델링의 이해/Entity.md","x":400,"y":-400,"width":400,"height":400},
+		{"id":"dc5b550b302bb0a9","type":"file","file":"SQLD 준비/데이터 모델링의 이해/ERD.md","x":400,"y":80,"width":400,"height":400},
+		{"id":"bf434563967997f6","type":"file","file":"SQLD 준비/데이터 모델링의 이해/식별자.md","x":400,"y":560,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"3b71162437b899f8","fromNode":"3d48d69c0beab13e","fromSide":"right","toNode":"9e04fdb1c305c72a","toSide":"left"},
+		{"id":"3eae0e532ce8b6ca","fromNode":"9e04fdb1c305c72a","fromSide":"right","toNode":"2b2e106769569568","toSide":"left"},
+		{"id":"13b9c45a33af149d","fromNode":"9e04fdb1c305c72a","fromSide":"right","toNode":"01fad0f9c22d4410","toSide":"left"},
+		{"id":"952df0bf0322e870","fromNode":"9e04fdb1c305c72a","fromSide":"right","toNode":"633080661f60d3b7","toSide":"left"},
+		{"id":"7c9b3d842dfab0d8","fromNode":"9e04fdb1c305c72a","fromSide":"right","toNode":"dc5b550b302bb0a9","toSide":"left"},
+		{"id":"2bc87c8a99e2828a","fromNode":"9e04fdb1c305c72a","fromSide":"right","toNode":"bf434563967997f6","toSide":"left"},
+		{"id":"2c04492d46285011","fromNode":"3d48d69c0beab13e","fromSide":"right","toNode":"0f6146fa41043e5c","toSide":"left"},
+		{"id":"7a200ff32fc217c8","fromNode":"0f6146fa41043e5c","fromSide":"right","toNode":"9b0acd498ab35f90","toSide":"left"},
+		{"id":"6c1bac1c41ba7bc5","fromNode":"32580e0314867b73","fromSide":"right","toNode":"3c55c8eadc4c8d15","toSide":"left"},
+		{"id":"de47352a71f5146f","fromNode":"32580e0314867b73","fromSide":"right","toNode":"c00e4d760c5cc8c7","toSide":"left"},
+		{"id":"22396dcc682c69a7","fromNode":"3d48d69c0beab13e","fromSide":"right","toNode":"32580e0314867b73","toSide":"left"}
+	]
+}

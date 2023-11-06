@@ -5,22 +5,49 @@
 
 ## 명령어
 
-| 명령어 | 설명 |
-| :-- | :-- |
-| CREATE | 데이터 베이스 개체 생성 |
-| ALTER | 데이터 베이스 개체의 구조 수정 |
-| DROP | 데이터 베이스 개체 삭제 |
-| RENAME | 데이터 베이스 개체 이름 변경 |
+<table border="1">
+  <tr>
+    <th style="padding: 10px;">명령어</th>
+    <th style="padding: 10px;">설명</th>
+  </tr>
+  <tr>
+    <td style="padding: 10px;">CREATE</td>
+    <td style="padding: 10px;">데이터 베이스 개체 생성</td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;">ALTER</td>
+    <td style="padding: 10px;">데이터 베이스 개체의 구조 수정</td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;">DROP</td>
+    <td style="padding: 10px;">데이터 베이스 개체 삭제</td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;">RENAME</td>
+    <td style="padding: 10px;">데이터 베이스 개체 이름 변경</td>
+  </tr>
+</table>
 
 ## 데이터 형식
 
-| 형식 | 설명 |
-| :---: | :--- |
-| INTEGER | 정수형 데이터 |
-| CHAR | 고정 길이 문자열 <br> 지정된 길이보다 짧은 데이터는 공백으로 길이를 맞춘다. |
-| VARCHAR | 가변 길이 문자열 <br> 지정된 길이보다 짧은 데이터는 공백을 추가하지 않는다. |
-| DATE | 날짜와 시각 정보 |
-
+<table border="1">
+  <tr>
+    <th style="padding: 10px;">형식</th>
+    <th style="padding: 10px;">설명</th>
+  </tr>
+  <tr>
+    <td style="padding: 10px; text-align: center;">INTEGER</td>
+    <td style="padding: 10px;">정수형 데이터</td>
+  </tr>
+  <tr>
+    <td style="padding: 10px; text-align: center;">CHAR</td>
+    <td style="padding: 10px;">고정 길이 문자열<br>지정된 길이보다 짧은 데이터는 공백으로 길이를 맞춘다.</td>
+  </tr>
+  <tr>
+    <td style="padding: 10px; text-align: center;">VARCHAR</td>
+    <td style="padding: 10px;">가변 길이 문자열<br>지정된 길이보다 짧은 데이터는 공
+    </tr>
+</table>
 
 ## 예시 코드
 ### CREATE
@@ -34,6 +61,7 @@ CREATE TABLE Employees ( <br>
 );
 </code>
 Employees 테이블 생성
+
 ### ALTER
 
 #### 열 추가
@@ -51,12 +79,14 @@ DROP COLUMN Email;
 ## DROP
 <code>
 DROP TABLE Employees
-</code>
+</code>   
 Employees 테이블 삭제
 
 ## RENAME
 
 <code>
 ALTER TABLE Employees RENAME TO EmployeesList;
-</code>
+</code>   
 테이블 이름은 Employees 에서 EmployeesList로 변경
+
+DDL
