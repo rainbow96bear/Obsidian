@@ -1,4 +1,3 @@
-
 # DDL (Data Definition Language) - 데이터 정의어
 
 데이터 베이스의 구조를 정의하고 관리하는 언어
@@ -50,6 +49,7 @@
 </table>
 
 ## 예시 코드
+
 ### CREATE
 
 <code>
@@ -65,18 +65,21 @@ Employees 테이블 생성
 ### ALTER
 
 #### 열 추가
+
 <code>
 ALTER TABLE Employees <br> 
 ADD Email VARCHAR(100);
 </code>
 
 #### 열 삭제
+
 <code>
 ALTER TABLE Employees <br> 
 DROP COLUMN Email;
 </code>
 
 ## DROP
+
 <code>
 DROP TABLE Employees
 </code>   
@@ -88,5 +91,3 @@ Employees 테이블 삭제
 ALTER TABLE Employees RENAME TO EmployeesList;
 </code>   
 테이블 이름은 Employees 에서 EmployeesList로 변경
-
-DDL
