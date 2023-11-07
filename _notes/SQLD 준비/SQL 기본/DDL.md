@@ -59,7 +59,8 @@ CREATE TABLE Employees ( <br>
 	Birth_Date DATE, <br> 
 	Salary DECIMAL(10, 2) <br> 
 );
-</code>
+</code>   
+
 Employees 테이블 생성
 
 ### ALTER
@@ -83,6 +84,7 @@ DROP COLUMN Email;
 <code>
 DROP TABLE Employees
 </code>   
+
 Employees 테이블 삭제
 
 ## RENAME
@@ -90,4 +92,5 @@ Employees 테이블 삭제
 <code>
 ALTER TABLE Employees RENAME TO EmployeesList;
 </code>   
+
 테이블 이름은 Employees 에서 EmployeesList로 변경
