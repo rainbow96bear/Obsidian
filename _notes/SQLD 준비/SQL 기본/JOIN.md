@@ -11,6 +11,7 @@
 
 1. VIP_CUSTOMERS
 ![[Pasted image 20231107231638.png]]
+
 2. ORDERS
 ![[Pasted image 20231107231741.png]]
 
@@ -58,6 +59,7 @@ RIGHT JOIN ORDERS ON VIP_CUSTOMERS.CUSTOMER_ID = ORDERS.CUSTOMER_ID;
 ### 결과
 ![[Pasted image 20231107232257.png]]
 
+
 ### FULL JOIN
 
 #### 예시 코드
@@ -71,6 +73,7 @@ FULL JOIN ORDERS ON VIP_CUSTOMERS.CUSTOMER_ID = ORDERS.CUSTOMER_ID;
 
 ### 결과
 ![[Pasted image 20231107235617.png]]
+
 
 My SQL은 FULL JOIN에 ON을 사용하면 오류가 발생
 
