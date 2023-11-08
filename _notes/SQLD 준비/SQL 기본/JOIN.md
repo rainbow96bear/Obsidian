@@ -10,10 +10,12 @@
 ### 예시 테이블
 
 1. VIP_CUSTOMERS
-![[Pasted image 20231107231638.png]]
+
+<img src="/assets/Pasted image 20231107231638.png">
 
 2. ORDERS
-![[Pasted image 20231107231741.png]]
+
+<img src="/assets/Pasted image 20231107231741.png">
 
 ### INNER JOIN
 
@@ -27,7 +29,7 @@ INNER JOIN ORDERS ON VIP_CUSTOMERS.CUSTOMER_ID = ORDERS.CUSTOMER_ID;
 <br>
 
 ### 결과
-![[Pasted image 20231107232025.png]]
+<img src="/assets/Pasted image 20231107232025.png">
 
 
 ### LEFT JOIN
@@ -42,7 +44,7 @@ LEFT JOIN ORDERS ON VIP_CUSTOMERS.CUSTOMER_ID = ORDERS.CUSTOMER_ID;
 <br>
 
 ### 결과
-![[Pasted image 20231107232143.png]]
+<img src="/assets/Pasted image 20231107232143.png">
 
 
 ### RIGHT JOIN
@@ -57,7 +59,7 @@ RIGHT JOIN ORDERS ON VIP_CUSTOMERS.CUSTOMER_ID = ORDERS.CUSTOMER_ID;
 <br>
 
 ### 결과
-![[Pasted image 20231107232257.png]]
+<img src="/assets/Pasted image 20231107232257.png">
 
 
 ### FULL JOIN
@@ -72,7 +74,7 @@ FULL JOIN ORDERS ON VIP_CUSTOMERS.CUSTOMER_ID = ORDERS.CUSTOMER_ID;
 <br>
 
 ### 결과
-![[Pasted image 20231107235617.png]]
+<img src="/assets/Pasted image 20231107235617.png">
 
 
 My SQL은 FULL JOIN에 ON을 사용하면 오류가 발생
