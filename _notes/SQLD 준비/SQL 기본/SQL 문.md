@@ -4,3 +4,5 @@
 2. [[DDL]]
 3. [[DML]]
 4. [[DCL, TCL]]
+5. [[GROUP BY, HAVING]]
+6. [[JOIN]]
