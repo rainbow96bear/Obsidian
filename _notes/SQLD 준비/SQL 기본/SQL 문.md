@@ -6,3 +6,5 @@
 4. [[DCL, TCL]]
 5. [[GROUP BY, HAVING]]
 6. [[JOIN]]
+7. [[GROUP FUNCTION]]
+8. [[OVER]]
