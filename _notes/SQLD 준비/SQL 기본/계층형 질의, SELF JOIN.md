@@ -10,7 +10,7 @@
 - 계층 구조에서 말단에 위치한 노드
 - 자식 노드가 없는 노드
 
-![[Pasted image 20231110142535.png]]
+<img src="/assets/Pasted image 20231110142535.png">
 
 ## 계층형 질의 가상 칼럼
 - **LEVEL** : 루트 데이터를 1로 주고 하위로 가면서 1씩 증가
@@ -166,8 +166,7 @@ START WITH manager_id IS NULL; <br>
 테이블 내에 저장된 데이터 간의 관계를 다룰 때 유용   
 
 ## 예시 테이블
-![[Pasted image 20231110135013.png]]
-![[Pasted image 20231110135013.png]]
+<img src="/assets/Pasted image 20231110135013.png">
 
 ## 예시 코드
 <code>
@@ -181,4 +180,4 @@ JOIN ETABLE AS M ON E.MANAGER_ID = M.EMPLOYEE_ID;
 </code>
 
 ## 출력 
-![[Pasted image 20231110145533.png]]
+<img src="/assets/Pasted image 20231110145533.png">
