@@ -8,4 +8,4 @@
 6. [[JOIN]]
 7. [[GROUP FUNCTION]]
 8. [[OVER]]
-9. [[SELF JOIN]]
+9. [[계층형 질의, SELF JOIN]]
