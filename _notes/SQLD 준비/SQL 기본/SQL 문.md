@@ -8,3 +8,4 @@
 6. [[JOIN]]
 7. [[GROUP FUNCTION]]
 8. [[OVER]]
+9. [[SELF JOIN]]
