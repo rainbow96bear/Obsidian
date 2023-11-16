@@ -167,9 +167,9 @@ CREATE TABLE PRODUCT ( <br>
 ); <br>
 </code>
 
-* PRIMARY KEY 지정
+* PRIMARY KEY 지정   
 <code>
-ALTER TABLE PRODUCT <br>
+ALTER TABLE PRODUCT
 ADD CONSTRAINT PRODUCT_PK PRIMARY KEY (PROD_ID);
 </code>
 
@@ -184,7 +184,7 @@ ADD CONSTRAINT PRODUCT_PK PRIMARY KEY (PROD_ID);
 - **지속성** : 트랜잭션이 성공적으로 수행되면 그 트랜잭션이 갱신한 데이터 베이스의 내용은 영구적으로 저장된다.
 
 #### SEARCHED_CASE_EXPRESSION, SIMPLE_CASE_EXPRESSION
-- **SEARCHED_CASE_EXPRESSION**
+- **SEARCHED_CASE_EXPRESSION**   
 <code>SELECT
     CASE
         WHEN salary > 50000 THEN 'High Salary'
@@ -194,7 +194,7 @@ ADD CONSTRAINT PRODUCT_PK PRIMARY KEY (PROD_ID);
 FROM employees;
 </code>
 
-- **SIMPLE_CASE_EXPRESSION**
+- **SIMPLE_CASE_EXPRESSION**   
 <code>SELECT
     CASE department_id
         WHEN 1 THEN 'HR Department'
@@ -230,7 +230,7 @@ ORDER BY GRADE DESC;
 - DIVIDE
 
 #### USING
-같은 이름을 가진 컬럼들 중에서 원하는 컬럼에 대하여 EQUI JOIN가능
+같은 이름을 가진 컬럼들 중에서 원하는 컬럼에 대하여 EQUI JOIN가능   
 <code>
 SELECT A.ID, A.NAME
 FROM TABLE A
@@ -241,7 +241,7 @@ LEFT JOIN TABLE B USING (ID)
 계층형 데이터에서 일반적으로 최상위 레벨의 노드를 나타내는데 사용
 
 #### 연관 서브쿼리
-- 상호작용 있음 : 서브쿼리 내부에서 외부 쿼리의 컬럼이나 테이블에 접근
+- 상호작용 있음 : 서브쿼리 내부에서 외부 쿼리의 컬럼이나 테이블에 접근   
 <code>
 SELECT department_id, employee_name
 FROM employees e_outer
@@ -253,7 +253,7 @@ WHERE salary = (
 </code>
 
 #### 비연관 서브쿼리
-- 상호 작용 없음 : 서브쿼리 내부에서 외부 쿼리의 컬럼이나 테이블에 접근하비 않습니다.
+- 상호 작용 없음 : 서브쿼리 내부에서 외부 쿼리의 컬럼이나 테이블에 접근하비 않습니다.   
 <code>
 SELECT employee_name
 FROM employees
@@ -266,7 +266,7 @@ FROM 절에서 사용되는 서브쿼리
 #### 뷰
 - 실제 데이터를 가지고 있지 않는 가상 테이블   
 - 실행 시점에 SQL 재작성 하여 수행됨
-##### 장점
+#### 뷰 장점
 - **독립성** : 테이블 구조가 변경되어도 뷰를 사용하는 응용 프로그램은 변경하지 않아도 된다.
 - **편리성** : 복잡한 질의를 뷰로 생성함으로써 관련 질의를 단순하게 작성할 수 있다.
 - **보안성** : 숨기고 싶은 정보가 존재할 때 사용
