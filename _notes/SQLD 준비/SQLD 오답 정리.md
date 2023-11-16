@@ -108,7 +108,7 @@
 - **BCNF** : 결정자가 후보 키가 아니면 분리하여 새로운 테이블 생성
 - **4차 정규화** : 하나의 속성이 여러 개의 독립적인 다중 값 속성을 갖지 않도록 다치 종속 제거
 - **5차 정규화** : 다중 값 속성 간에 조인이 의존되지 않도록 조인 종속 해결
-- **6차 정규화** : 레퍼런스 가능한 모든 종속을 처리하여 다른 정규 형태들이 해결하지 못하는 특별한 경우를 다
+- **6차 정규화** : 레퍼런스 가능한 모든 종속을 처리하여 다른 정규 형태들이 해결하지 못하는 특별한 경우를 다룸
 
 #### 로우체이닝
 로우의 길이가 너무 길어서 데이터 블록 하나에 데이터가 모두 저장되지 않고 두 개 이상의 블록에 걸쳐 하나의 로우가 저장되어있는 형식
@@ -173,6 +173,9 @@ ALTER TABLE PRODUCT <br>
 ADD CONSTRAINT PRODUCT_PK PRIMARY KEY (PROD_ID);
 </code>
 
+#### AUTO COMMIT
+- DDL은 실행 시 AUTO COMMIT
+- DML은 COMMIT을 직접 입력
 
 #### 트랜잭션 4가지 특성
 - **원자성** : 트랜잭션에 정의된 연산들은 모두 성공적으로 실행되던지 아니면 전혀 실행되지 않은 상태로 남아있어야한다.
@@ -202,7 +205,14 @@ FROM employees;
 FROM employees;
 </code>
 
-
+#### WITH TIES (SQL Server)
+ORDER BY절과 함께 사용되는 옵션으로 ORDER BY에 사용된 컬럼 기준으로 동점자를 포함하여 출력
+##### 예시 코드
+<code>
+SELECT TOP(2) WITH TIES NAME, GRADE <br>
+FROM STUDENT <br>
+ORDER BY GRADE DESC;
+</code>
 
 # **4. SQL 활용**
 
@@ -210,8 +220,8 @@ FROM employees;
 - **UNION** : 합집합 (중복 행 1개)
 - **UNION ALL** : 합집합 (중복 행 표시)
 - **INTERSECT** : 교집합
-- **MINUS** : 차집합
-- **CROSS JOIN** : 곱집합
+- **MINUS** : 차집합 (Oracle에 존재, MySQL EXPECT와 유사)
+- **CROSS JOIN** : 곱집합 (cartesian product)
 
 #### 순수 관계 연산자
 - SELECT
@@ -221,6 +231,34 @@ FROM employees;
 
 #### USING
 같은 이름을 가진 컬럼들 중에서 원하는 컬럼에 대하여 EQUI JOIN가능
+<code>
+SELECT A.ID, A.NAME
+FROM TABLE A
+LEFT JOIN TABLE B USING (ID)
+</code>
+
+#### 앵커 멤버
+계층형 데이터에서 일반적으로 최상위 레벨의 노드를 나타내는데 사용
+
+#### 연관 서브쿼리
+- 상호작용 있음 : 서브쿼리 내부에서 외부 쿼리의 컬럼이나 테이블에 접근
+<code>
+SELECT department_id, employee_name
+FROM employees e_outer
+WHERE salary = (
+    SELECT MAX(salary)
+    FROM employees e_inner
+    WHERE e_inner.department_id = e_outer.department_id
+);
+</code>
+
+#### 비연관 서브쿼리
+- 상호 작용 없음 : 서브쿼리 내부에서 외부 쿼리의 컬럼이나 테이블에 접근하비 않습니다.
+<code>
+SELECT employee_name
+FROM employees
+WHERE salary > (SELECT AVG(salary) FROM employees);
+</code>
 
 #### 인라인 뷰
 FROM 절에서 사용되는 서브쿼리
@@ -246,5 +284,3 @@ FROM 절에서 사용되는 서브쿼리
 	- ex) MySQL의 DELIMITER 사용
 - **비절차적 DML** : 사용자가 무슨 데이터를 원하는지 명세
 	- ex) SELECT * FROM TABLE
-
-
