@@ -9,10 +9,10 @@ permalink: /
 
 <div>
   <h3> 목차 </h3>
-  <ul style="font-weight: bold">당당한 개발자가 되기 위한 자기 분석
+  <ul style="font-weight: bold">목표 설정의 첫 단계 자기 분석 : 
     <span style="font-weight: bold">[[자기 소개]]</span>
   </ul>
-  <ul style="font-weight: bold">기본을 쌓기 위한 기초공부 계획
+  <ul style="font-weight: bold">기본을 쌓기 위한 기초공부 계획 : 
     <span style="font-weight: bold">[[CS 6대 과목 공부 계획]]</span>
   </ul>
 </div>
