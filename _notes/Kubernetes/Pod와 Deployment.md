@@ -54,7 +54,8 @@ JSON 또는 YAML 포맷으로 작성된 쿠버네티스의 오브젝트 정의�
 </code>
 - **원격 URL에서 제공되는 매니페스트 파일로 애플리케이션 배포**   
 <code>kubectl apply -f https://raw.githubusercontent.com/sixeyed/kiamol/master/ch02/pod.yaml
-</code>
+</code>   
+   
 위 주소의 파일 매니페스트 내용
 ```yaml
 apiVersion: v1
