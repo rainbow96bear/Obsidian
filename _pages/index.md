@@ -15,6 +15,9 @@ permalink: /
   <ul style="font-weight: bold">기본을 쌓기 위한 기초공부 계획 : 
     <span style="font-weight: bold">[[CS 6대 과목 공부 계획]]</span>
   </ul>
+  <ul style="font-weight: bold">무중단 배포를 위한 쿠버네티스 공부 : 
+    <span style="font-weight: bold">[[Kubernetes 공부 기록]]</span>
+  </ul>
 </div>
 
 <div class="graph_background">
