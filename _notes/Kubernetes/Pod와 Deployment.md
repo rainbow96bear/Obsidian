@@ -7,23 +7,23 @@
 쿠버네티스 구성 예시
 <img src="/assets/Pasted image 20231120115928.png">
 
-- **컨테이너 하나를 담은 파드 생성**
+- **컨테이너 하나를 담은 파드 생성**   
 <code>kubectl run 파드 이름 --image = 이미지 이름
 </code>
 
-- **클러스터에 있는 모든 파드의 목록 출력**
+- **클러스터에 있는 모든 파드의 목록 출력**   
 <code>kubectl get pods
 </code>
 
-- **파드의 상세 정보 출력**
+- **파드의 상세 정보 출력**   
 <code>kubectl describe pod 파드 이름
 </code>
 
-- **포트 포워딩**
+- **포트 포워딩**   
 <code>kubectl port-forward pod/파드이름 8080:80
 </code>
 
-- **파드 삭제**
+- **파드 삭제**   
 <code>kubectl delete pod 파드 이름
 </code>
 
@@ -33,15 +33,15 @@
 # **2. 디플로이먼트(Deployment)란?**
 파드를 주로 관리하는 컨트롤러 객체로 쿠버네티스 API를 사용하여 파드를 관리
 
-- **디플로이먼트 생성 방법**
+- **디플로이먼트 생성 방법**   
 <code>kubectl create deployment 디플로이먼트 이름 --image = 이미지 이름
 </code>
 
-- **포트 포워딩**
+- **포트 포워딩**   
 <code>kubectl port-forward deploy/디플로이먼트이름 8080:80
 </code>
 
-- **디플로이먼트 삭제**
+- **디플로이먼트 삭제**   
 <code>kubectl delete deploy 디플로이먼트 이름
 </code>
 
@@ -49,10 +49,10 @@
 # **3. 매니페스트**
 JSON 또는 YAML 포맷으로 작성된 쿠버네티스의 오브젝트 정의를 담은 선언적 스크립트
 
-- **매니페스트 파일로 애플리케이션 배포**
+- **매니페스트 파일로 애플리케이션 배포**   
 <code>kubectl apply -f 매니페스트 파일명.포멧명
 </code>
-- **원격 URL에서 제공되는 매니페스트 파일로 애플리케이션 배포**
+- **원격 URL에서 제공되는 매니페스트 파일로 애플리케이션 배포**   
 <code>kubectl apply -f https://raw.githubusercontent.com/sixeyed/kiamol/master/ch02/pod.yaml
 </code>
 위 주소의 파일 매니페스트 내용
@@ -69,13 +69,13 @@ spec:
 
 
 ## 파드와 컨테이너 부가 기능
-- **파드 내부에 접근하기**
+- **파드 내부에 접근하기**   
 <code>kubectl exec -it 파드 명 sh
 </code>
-- **파드의 로그 확인하기**
+- **파드의 로그 확인하기**   
 <code>kubectl logs --tail=2 파드명
 </code>
-- **파드 속의 파일을 로컬 영역으로 복사**
+- **파드 속의 파일을 로컬 영역으로 복사**   
 <code>kubectl cp 파드명:/복사할 파일경로/파일명 /저장할 로컬 경로/파일명
 </code>
 
