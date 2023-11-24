@@ -62,16 +62,16 @@ spec:
 <code>kubectl create secret generic sleep-secret-literal --from-literal=secret=rainbowbear</code>
 
 ### Secret 출력
-- 단순 출력
+- 단순 출력   
 <code>kubectl get secret sleep-secret-literal -o jsonpath="{.data.secret}"</code>
-- base64 디코딩
+- base64 디코딩   
 <code>kubectl get secret sleep-secret-literal -o jsonpath="{.data.secret}" | ForEach-Object { [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($_)) }
 </code>
-
+   
 <code>kubectl get secret sleep-secret-literal -o jsonpath="{.data.secret}" | base64 -d</code>
 
 <img src="/assets/스크린샷 2023-11-24 220129.png">
 # **3. 4장 리뷰**
-쿠버네티스에서 컨피그맵과 Secret을 생성하여 환경변수를 다루는 방법에 대한 내용이었습니다.
-컨피그맵과 Secret을 생성하는 다양한 예시가 있었고 이에 따라 적용되는 우선 순위가 다르다는 것을 확인할 수 있는 예시까지 있었습니다.
+쿠버네티스에서 컨피그맵과 Secret을 생성하여 환경변수를 다루는 방법에 대한 내용이었습니다.   
+컨피그맵과 Secret을 생성하는 다양한 예시가 있었고 이에 따라 적용되는 우선 순위가 다르다는 것을 확인할 수 있는 예시까지 있었습니다.   
 입문하는 입장에서 다소 어려울 수 있는 내용들을 가볍게 이해하고 넘어가기에 부족함 없는 내용인 점에서 좋았습니다.
