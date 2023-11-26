@@ -5,3 +5,4 @@
 1. [[Pod와 Deployment]]
 2. [[Service]]
 3. [[Config Map과 Secret]]
+4. [[Volume과 Claim을 이용한 데이터 Persistency]]
