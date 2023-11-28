@@ -6,3 +6,4 @@
 2. [[Service]]
 3. [[Config Map과 Secret]]
 4. [[Volume과 Claim을 이용한 데이터 Persistency]]
+5. [[애플리케이션 스케일링]]
