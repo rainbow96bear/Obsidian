@@ -29,6 +29,8 @@ permalink: /
   <ul style="font-weight: bold">무중단 배포를 위한 쿠버네티스 공부 : 
     <span style="font-weight: bold">[[Kubernetes 공부 기록]]</span>
   </ul>
+  <ul><a href="https://www.youtube.com/channel/UCz7xhiKgrdhwFRxfvpnUriw">혼자하는 우테코</a>
+  </ul>
 </div>
 
 <div class="graph_background">
