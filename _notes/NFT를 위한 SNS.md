@@ -13,7 +13,7 @@ https://github.com/rainbow96bear/NFstart
 - 메타마스크 연결을 활용한 닉네임 랜덤 생성
 
 # 결과
-![[Pasted image 20231129162706.png]]
-![[Pasted image 20231129162700.png]]
-![[Pasted image 20231129162652.png]]
-![[Pasted image 20231129162641.png]]
+<img src="/assets/Pasted image 20231129162706.png">
+<img src="/assets/Pasted image 20231129162700.png">
+<img src="/assets/Pasted image 20231129162652.png">
+<img src="/assets/Pasted image 20231129162641.png">
