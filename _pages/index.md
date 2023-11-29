@@ -30,7 +30,7 @@ permalink: /
     <span style="font-weight: bold">[[Kubernetes 공부 기록]]</span>
   </ul>
   <ul>
-  <span style="font-weight: bold">[혼자하는 우테코](https://www.youtube.com/channel/UCz7xhiKgrdhwFRxfvpnUriw)</span>
+  <span style="font-weight: bold"><a href="https://www.youtube.com/channel/UCz7xhiKgrdhwFRxfvpnUriw">혼자하는 우테코</a></span>
   </ul>
 </div>
 
