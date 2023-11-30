@@ -35,17 +35,59 @@ for i:=0 ; i <len(EdgeList) ; i++ {
 ```
 
 **EdgeList**
-
-| A,B | E,G | B,C | E,F | B,D | C,F | G,H | C,E | F,H | D,E |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 1 | 2 | 2 | 3 | 3 | 3 | 4 | 5 | 6 |
-
+<table style="border-collapse: collapse; width: 100%; height: 34px;" border="1" data-ke-align="alignLeft" data-ke-style="style8">
+<tbody>
+<tr style="height: 17px;">
+<td style="width: 10%; height: 17px; text-align: center;">A,B</td>
+<td style="width: 10%; height: 17px; text-align: center;">E,G</td>
+<td style="width: 10%; height: 17px; text-align: center;">B,C</td>
+<td style="width: 10%; height: 17px; text-align: center;">E,F</td>
+<td style="width: 10%; height: 17px; text-align: center;">B,D</td>
+<td style="width: 10%; height: 17px; text-align: center;">C,F</td>
+<td style="width: 10%; height: 17px; text-align: center;">G,H</td>
+<td style="width: 10%; height: 17px; text-align: center;">C,E</td>
+<td style="width: 10%; height: 17px; text-align: center;">F,H</td>
+<td style="width: 10%; height: 17px; text-align: center;">D,E</td>
+</tr>
+<tr style="height: 17px;">
+<td style="width: 10%; height: 17px; text-align: center;">1</td>
+<td style="width: 10%; height: 17px; text-align: center;">1</td>
+<td style="width: 10%; height: 17px; text-align: center;">2</td>
+<td style="width: 10%; height: 17px; text-align: center;">2</td>
+<td style="width: 10%; height: 17px; text-align: center;">3</td>
+<td style="width: 10%; height: 17px; text-align: center;">3</td>
+<td style="width: 10%; height: 17px; text-align: center;">3</td>
+<td style="width: 10%; height: 17px; text-align: center;">4</td>
+<td style="width: 10%; height: 17px; text-align: center;">5</td>
+<td style="width: 10%; height: 17px; text-align: center;">6</td>
+</tr>
+</tbody>
+</table>
 **Parent**
-
-| A(1) | B(2) | C(3) | D(4) | E(5) | F(6) | G(7) | H(8) |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
-
+<table style="border-collapse: collapse; width: 100%;" border="1" data-ke-align="alignLeft">
+<tbody>
+<tr>
+<td style="width: 12.5%; text-align: center;">A(1)</td>
+<td style="width: 12.5%; text-align: center;">B(2)</td>
+<td style="width: 12.5%; text-align: center;">C(3)</td>
+<td style="width: 12.5%; text-align: center;">D(4)</td>
+<td style="width: 12.5%; text-align: center;">E(5)</td>
+<td style="width: 12.5%; text-align: center;">F(6)</td>
+<td style="width: 12.5%; text-align: center;">G(7)</td>
+<td style="width: 12.5%; text-align: center;">H(8)</td>
+</tr>
+<tr>
+<td style="width: 12.5%; text-align: center;">1</td>
+<td style="width: 12.5%; text-align: center;">2</td>
+<td style="width: 12.5%; text-align: center;">3</td>
+<td style="width: 12.5%; text-align: center;">4</td>
+<td style="width: 12.5%; text-align: center;">5</td>
+<td style="width: 12.5%; text-align: center;">6</td>
+<td style="width: 12.5%; text-align: center;">7</td>
+<td style="width: 12.5%; text-align: center;">8</td>
+</tr>
+</tbody>
+</table>
 ---
 
 Edge의 첫 번째 값을 확인하여 두 Node의 부모를 확인 후 다르다면 A의 Parent를 B의 Parent로 변경합니다.
@@ -56,11 +98,30 @@ Edge의 첫 번째 값을 확인하여 두 Node의 부모를 확인 후 다르�
 **totalValue** \= 1
 
 **Parent**
-
-| A(1) | B(2) | C(3) | D(4) | E(5) | F(6) | G(7) | H(8) |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 2 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
-
+<table style="border-collapse: collapse; width: 100%; height: 34px;" border="1" data-ke-align="alignLeft">
+<tbody>
+<tr style="height: 17px;">
+<td style="width: 12.5%; height: 17px; text-align: center;">A(1)</td>
+<td style="width: 12.5%; height: 17px; text-align: center;">B(2)</td>
+<td style="width: 12.5%; height: 17px; text-align: center;">C(3)</td>
+<td style="width: 12.5%; height: 17px; text-align: center;">D(4)</td>
+<td style="width: 12.5%; height: 17px; text-align: center;">E(5)</td>
+<td style="width: 12.5%; height: 17px; text-align: center;">F(6)</td>
+<td style="width: 12.5%; height: 17px; text-align: center;">G(7)</td>
+<td style="width: 12.5%; height: 17px; text-align: center;">H(8)</td>
+</tr>
+<tr style="height: 17px;">
+<td style="width: 12.5%; height: 17px; text-align: center;">2</td>
+<td style="width: 12.5%; height: 17px; text-align: center;">2</td>
+<td style="width: 12.5%; height: 17px; text-align: center;">3</td>
+<td style="width: 12.5%; height: 17px; text-align: center;">4</td>
+<td style="width: 12.5%; height: 17px; text-align: center;">5</td>
+<td style="width: 12.5%; height: 17px; text-align: center;">6</td>
+<td style="width: 12.5%; height: 17px; text-align: center;">7</td>
+<td style="width: 12.5%; height: 17px; text-align: center;">8</td>
+</tr>
+</tbody>
+</table>
 ---
 
 다음 Edge의 값을 확인하여 E와 G Node를 대상으로 동일한 작업을 진행합니다.
@@ -69,11 +130,30 @@ Edge의 첫 번째 값을 확인하여 두 Node의 부모를 확인 후 다르�
 **totalValue** \= 2
 
 **Parent**
-
-| A(1) | B(2) | C(3) | D(4) | E(5) | F(6) | G(7) | H(8) |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 2 | 2 | 3 | 4 | 7 | 6 | 7 | 8 |
-
+<table style="border-collapse: collapse; width: 100%; height: 34px;" border="1" data-ke-align="alignLeft">
+<tbody>
+<tr>
+<td style="text-align: center;">A(1)</td>
+<td style="text-align: center;">B(2)</td>
+<td style="text-align: center;">C(3)</td>
+<td style="text-align: center;">D(4)</td>
+<td style="text-align: center;">E(5)</td>
+<td style="text-align: center;">F(6)</td>
+<td style="text-align: center;">G(7)</td>
+<td style="text-align: center;">H(8)</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">8</td>
+</tr>
+</tbody>
+</table>
 ---
 
 B와 C도 같은 작업을 한 후 E와 F를 확인해 보면 E의 부모는 G이고 F의 부모는 F이므로 값이 다르기에 E의 부모의 부모 즉 G의 부모를 F로 지정합니다.
@@ -82,11 +162,30 @@ B와 C도 같은 작업을 한 후 E와 F를 확인해 보면 E의 부모는 G�
 **totalValue** \= 6
 
 **Parent**
-
-| A(1) | B(2) | C(3) | D(4) | E(5) | F(6) | G(7) | H(8) |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 2 | 3 | 3 | 4 | 7 | 6 | 6 | 8 |
-
+<table style="border-collapse: collapse; width: 100%; height: 34px;" border="1" data-ke-align="alignLeft">
+<tbody>
+<tr>
+<td style="text-align: center;">A(1)</td>
+<td style="text-align: center;">B(2)</td>
+<td style="text-align: center;">C(3)</td>
+<td style="text-align: center;">D(4)</td>
+<td style="text-align: center;">E(5)</td>
+<td style="text-align: center;">F(6)</td>
+<td style="text-align: center;">G(7)</td>
+<td style="text-align: center;">H(8)</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">8</td>
+</tr>
+</tbody>
+</table>
 ---
 
 이러한 과정이 반복되면 최종적으로 연결된 간선과 Parent의 값은 아래와 같습니다.
@@ -95,11 +194,30 @@ B와 C도 같은 작업을 한 후 E와 F를 확인해 보면 E의 부모는 G�
 **totalValue** \= 15
 
 **Parent**
-
-| A(1) | B(2) | C(3) | D(4) | E(5) | F(6) | G(7) | H(8) |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 2 | 3 | 4 | 6 | 7 | 6 | 6 | 6 |
-
+<table style="border-collapse: collapse; width: 100%; height: 34px;" border="1" data-ke-align="alignLeft">
+<tbody>
+<tr>
+<td style="text-align: center;">A(1)</td>
+<td style="text-align: center;">B(2)</td>
+<td style="text-align: center;">C(3)</td>
+<td style="text-align: center;">D(4)</td>
+<td style="text-align: center;">E(5)</td>
+<td style="text-align: center;">F(6)</td>
+<td style="text-align: center;">G(7)</td>
+<td style="text-align: center;">H(8)</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">6</td>
+</tr>
+</tbody>
+</table>
 ---
 
 위의 상황에서 연결되지 않은 간선의 경우 연결을 시도하게 되면 부모의 값이 동일하다는 결과가 나옵니다.
