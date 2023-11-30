@@ -16,12 +16,18 @@
 
 ---
 
+# 기술 스택
+React   
+Node.js   
+Solidity   
+
+-----
+
 # 역할
 
 - OpenGSN을 활용할 수 있는 Paymaster 생성
 - Contract에 대한 TestCode 작성
-- Sample 웹 페이지 구
-  <br>
+- Sample 웹 페이지 구현
   <br>
 
 # 겪은 문제
@@ -37,10 +43,12 @@
 1. OpenGSN이 제공하는 Document를 확인하여 용어와 각각의 요소의 역할을 정리
 2. OpenGSN이 제공하는 sample 페이지를 사용하며 scan 사이트의 트렌잭션을 통하여 작업 순서 이해
 
+---
+
 ### 배운 점
 
 - 새로운 기능을 접할 때 Document를 읽는 습관
 - 기억보단 기록을 통한 생각 정리의 필요성
 - 테스트 코드를 통하여 해당 기능의 테스트의 편리성
 
----
+

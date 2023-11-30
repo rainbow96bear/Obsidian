@@ -18,6 +18,25 @@
 
 ---
 
+# 기술 스택
+### FrontEnd
+
+React, Redux, JavaScript, Web3js, Figma, aws-amplify, styled-components, thressjs
+
+### BackEnd
+
+Nodejs, mySQL, PM2, Sequelize, TypeScript, nodemon
+
+### Contract
+
+Solidity, Remix
+
+### Deployed
+
+AWS EC2, AWS Route 53, Filezilla
+
+-----
+
 # 역할
 
 - Defi 상품 정보를 불러오는 API 처리

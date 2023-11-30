@@ -16,6 +16,20 @@
 
 ---
 
+# 기술 스택
+### FrontEnd
+
+React, JavaScript, Web3js, styled-components
+
+### BackEnd
+
+Nodejs, mySQL, PM2, Sequelize, TypeScript, nodemon
+
+### Contract
+
+Solidity, Remix
+
+-----
 # 역할
 
 - 아이디어 기획
