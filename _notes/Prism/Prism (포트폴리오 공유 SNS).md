@@ -1,5 +1,7 @@
 # 프로젝트 기획
-![[프리즘A4.pdf]]
+
+<embed src="/assets/프리즘A4.pdf" width="800px" height="600px" type="application/pdf">
+
 # 개발 일기
 1. [[Header 기본 틀]] - 2023/12/01
 2. [[카카오 소셜 로그인 분석]] - 2023/12/04

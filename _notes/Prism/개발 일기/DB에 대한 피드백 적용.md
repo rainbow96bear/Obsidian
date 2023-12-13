@@ -4,6 +4,18 @@
 
 -----
 
+# 목차
+1. 테이블 명, 컬럼 명 통일
+2. profile테이블의 userinfo_id를 참고하는 것은 추천하지 않음
+3. hashtaglist에 id 컬럼이 필요하지 않을까?
+4. tech와 techcategory에 대한 이해가 어려움
+5. R_UserInfo에서 아스테리크(*)로 가져오는 것
+6. C_UserInfo와 R_UserInfo의 return 포멧 통일
+7. rollback, commit없이 exec를 실행하는 문제
+8. 결과
+
+-----
+
 # 1. 테이블 명, 컬럼 명 통일
 
 ## 문제점 : 
@@ -29,7 +41,7 @@ userinfo 테이블과 profile 테이블은 1:1 관계이고 userinfo의 id를 pr
 profile과 관련된 테이블은 profile의 userinfo_id를 참고하는 상황   
 
 ## 생각
-단순히 profile은 userinfo에 관련되어 있고 hashtag, tech, project 등은 userinfo의 id와 profile에 관련이 있으니 userinfo의 id를 건내고 건내는 방식을 하였습니다.   
+단순히 profile은 userinfo에 관련되어 있고 hashtag, tech, project 등은 userinfo의 id와 profile에 관련이 있으니 userinfo의 id를 건네 방식을 하였습니다.   
 너무 1차원적인 생각이었다고 느껴집니다.   
 hashtag와 tech를 포함하는 것은 profile이기 때문에 userinfo의 id보다 profile에 id 컬럼을 생성하여 id 값을 참조하는 것이 더 좋은 관계라고 생각  
 
