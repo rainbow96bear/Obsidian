@@ -1,0 +1,1 @@
+<embed src="/assets/Defi 사이트, OpenGSN 구축 포트폴리오.pdf" width="800px" height="600px" type="application/pdf">

@@ -17,10 +17,7 @@ permalink: /
 	    <span style="font-weight: bold">[[Prism (포트폴리오 공유 SNS)]]</span>
     </ul>
     <ul style="font-weight: bold">
-	    <span style="font-weight: bold">[[OpenGSN 구축]]</span>
-    </ul>
-    <ul style="font-weight: bold">
-	    <span style="font-weight: bold">[[Defi Scan 사이트]]</span>
+	    <span style="font-weight: bold">[[OpenGSN 와 DefiScan 프로젝트 기록]]</span>
     </ul>
     <ul style="font-weight: bold">
 	    <span style="font-weight: bold">[[NFT를 위한 SNS]]</span>
