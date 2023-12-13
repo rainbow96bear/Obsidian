@@ -147,7 +147,7 @@ rollback과 commit에 대한 공부를 추가적으로 공부하여 확실하게
 ## ERD
 
 ### before
-![[ERD 1.png]]
+<img src="/assets/ERD 1.png">
 
 ### after
-![[Pasted image 20231213163655.png]]
+<img src="/assets/Pasted image 20231213172151.png">
