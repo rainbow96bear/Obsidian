@@ -8,10 +8,11 @@ permalink: /
 # 🌈 무지개곰의 포트폴리오
 
 <div>
-  <h3> 목차 </h3>
   <ul style="font-weight: bold">목표 설정의 첫 단계 자기 분석 : 
     <span style="font-weight: bold">[[자기 분석]]</span>
   </ul>
+  <h3>수상</h3>
+  <ul>블록체인 누리단 혁신 우수상</ul>
     <h3> 프로젝트 기록 </h3>
     <ul style="font-weight: bold">
 	    <span style="font-weight: bold">[[Prism (포트폴리오 공유 SNS)]]</span>

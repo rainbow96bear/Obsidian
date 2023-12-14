@@ -10,6 +10,7 @@
 5. [[로그인, 로그아웃 구현]] - 2023/12/10
 6. [[Backend 리팩토링]] - 2023/12/11
 7. [[DB에 대한 피드백 적용]] - 2023/12/13
+8. [[관리자 페이지 구상]] - 2023/12/14
 
 # GitHub repository
 <span style="font-weight: bold"><a href="https://github.com/rainbow96bear/Prism">Prisme repository</a></span>
