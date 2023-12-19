@@ -38,7 +38,11 @@ permalink: /
   <ul>
   <span style="font-weight: bold"><a href="https://www.youtube.com/channel/UCz7xhiKgrdhwFRxfvpnUriw">혼자하는 우테코</a></span>
   </ul>
+  <h3> 블로그 </h3>
+   <ul><span style="font-weight: bold"><a href="https://rainbow96bear.tistory.com/">개발 공부 기록 블로그</a></span></ul>
+   <ul><span style="font-weight: bold"><a href="https://creal-news.tistory.com/">레거시 블로그</a></span></ul>
 </div>
+
 
 <div class="graph_background">
   <div>{% include notes_graph.html %}</div>
