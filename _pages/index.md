@@ -41,6 +41,7 @@ permalink: /
   <h3> 블로그 </h3>
    <ul><span style="font-weight: bold"><a href="https://rainbow96bear.tistory.com/">개발 공부 기록 블로그</a></span></ul>
    <ul><span style="font-weight: bold"><a href="https://creal-news.tistory.com/">레거시 블로그</a></span></ul>
+   <h3><span style="font-weight: bold"><a href="https://github.com/rainbow96bear">Github</a></span></h3>
 </div>
 
 
