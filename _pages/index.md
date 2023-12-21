@@ -32,15 +32,19 @@ permalink: /
 	    <span style="font-weight: bold">[[NFT를 위한 SNS]]</span>
     </ul>
   <h3> 공부 기록 </h3>
+  <ul>
+  <span style="font-weight: bold"><a href="https://www.youtube.com/channel/UCz7xhiKgrdhwFRxfvpnUriw">혼자하는 우테코</a></span>
+  </ul>
+  <ul>
+  <span style="font-weight: bold">[[아키텍처 공부]]</span>
+  </ul>
   <ul style="font-weight: bold">기본을 쌓기 위한 CS 공부 : 
     <span style="font-weight: bold">[[CS 6대 과목]]</span>
   </ul>
   <ul style="font-weight: bold">무중단 배포를 위한 쿠버네티스 공부 : 
     <span style="font-weight: bold">[[Kubernetes 공부 기록]]</span>
   </ul>
-  <ul>
-  <span style="font-weight: bold"><a href="https://www.youtube.com/channel/UCz7xhiKgrdhwFRxfvpnUriw">혼자하는 우테코</a></span>
-  </ul>
+  
   <h3> 블로그 </h3>
    <ul><span style="font-weight: bold"><a href="https://rainbow96bear.tistory.com/">개발 공부 기록 블로그</a></span></ul>
    <ul><span style="font-weight: bold"><a href="https://creal-news.tistory.com/">레거시 블로그</a></span></ul>
