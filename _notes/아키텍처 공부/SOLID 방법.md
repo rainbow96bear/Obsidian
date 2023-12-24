@@ -230,6 +230,6 @@ func Working(p Person) {
 ![[Pasted image 20231225004731.png]]
 
 
-참고 자료   
+### 참고 자료   
 - [https://simplear.tistory.com/24](https://simplear.tistory.com/24)
 - [https://www.youtube.com/watch?v=nOHdunGzeRc&t=699s](https://www.youtube.com/watch?v=nOHdunGzeRc&t=699s)
