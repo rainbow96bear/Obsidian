@@ -11,4 +11,4 @@ GIF 변환 응용프로그램을 만들기 위하여 ffmpeg와 fyne에 대한 �
 5. converted 폴더 확인
 
 # 결과
-![[rainbowbear_20240107_082154.gif]]
+<img src="/assets/rainbowbear_20240107_082154.gif"/>
