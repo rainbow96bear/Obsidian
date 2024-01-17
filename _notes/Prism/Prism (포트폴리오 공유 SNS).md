@@ -17,6 +17,7 @@
 12. [[프로필 수정 페이지 구상]] - 2024/01/02
 13. [[프로필 수정 페이지 1차 기록]] - 2024/01/04
 14. [[프로필 수정 페이지 2차 기록]] - 2024/01/15
+15. [[프로필 이미지 수정 구상]] - 2024/01/17
 
 # 배운 것
 - [[UUID와 ULID]]   
@@ -24,6 +25,8 @@
 - [[레인보우 테이블]]   
 - [[golang 스타일 가이드]]
 - [[HTTP 메서드 GET과 POST 차이]]
+- [[HTTP header의 content-type]]
+- [[query parameter와 path parameter]]
 
 # GitHub repository
 <span style="font-weight: bold"><a href="https://github.com/rainbow96bear/Prism">Prisme repository</a></span>
