@@ -19,6 +19,7 @@
 14. [[프로필 수정 페이지 2차 기록]] - 2024/01/15
 15. [[프로필 이미지 수정 구상]] - 2024/01/17
 16. [[프로필 수정 결과 (해시태그 구상)]] - 2024/01/22
+17. [[해시태그, 기술스택 구현]] - 2024/01/24
 
 # 배운 것
 - [[UUID와 ULID]]   
@@ -31,10 +32,6 @@
 
 # GitHub repository
 <span style="font-weight: bold"><a href="https://github.com/rainbow96bear/Prism">Prisme repository</a></span>
-
-# RESTful API 정리
-<span style="font-weight: bold"><a href="https://docs.google.com/spreadsheets/d/10WFcSzuMamgfGxvGkNINSHyQ8OMYlOCWP2XIgQrHq4w/edit#gid=0">RESTful API 기록 googl sheet</a></span>
-
 
 # [[테스트 코드 모음]]
 
