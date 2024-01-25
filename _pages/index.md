@@ -46,7 +46,9 @@ permalink: /
 		  <span style="font-weight: bold">[[ICT BC 고급 미니 프로젝트]]</span>
 	  </ul>
 	  <ul>길벗 리뷰어 : <span style="font-weight: bold">[[Kubernetes 공부 기록]]</span></ul>
-	  <ul><span style="font-weight: bold">[[블록체인 난제 해결 챌린지]]</span></ul>
+	  <ul>
+		  <span style="font-weight: bold"><a href="https://rainbow96bear.tistory.com/entry/%EA%B2%BD%EC%A7%84-%EB%8C%80%ED%9A%8C-%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EB%82%9C%EC%A0%9C%ED%95%B4%EA%B2%B0-%EC%B1%8C%EB%A6%B0%EC%A7%80-%EC%A7%80%EC%9B%90">블록체인 난제해결 첼린지</a></span>
+	  </ul>
 	  <ul><span style="font-weight: bold"><a href="https://rainbow96bear.tistory.com/entry/%ED%9B%84%EA%B8%B0-%EB%AF%B9%EC%8A%A4%EB%A7%88%EB%B8%94-%EB%B0%8B%EC%97%85-%ED%9B%84%EA%B8%B0-mixmarvel-meet-up">믹스마블 밋업</a></span></ul>
   <h3> 블로그 </h3>
    <ul><span style="font-weight: bold"><a href="https://rainbow96bear.tistory.com/">개발 공부 기록 블로그</a></span></ul>
