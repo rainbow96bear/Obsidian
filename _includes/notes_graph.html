@@ -52,7 +52,7 @@
       document.body.appendChild(oScript);
       oScript.onload = () => {
         const MINIMAL_NODE_SIZE = 8;
-        const MAX_NODE_SIZE = 25;
+        const MAX_NODE_SIZE = 30;
         const ACTIVE_RADIUS_FACTOR = 1.5;
         const STROKE = 1;
         const FONT_SIZE = 16;
@@ -73,7 +73,7 @@
               3 *
               Math.sqrt(
                 linksData.filter((l) => l.source.id === el.id || l.target.id === el.id)
-                  .length + 1
+                  .length + 2
               );
             if (weight < MINIMAL_NODE_SIZE) {
               weight = MINIMAL_NODE_SIZE;
@@ -317,16 +317,15 @@
 
         function calculateColorBasedOnSize(size) {
           const minColor = [0, 0, 255]; // 파란색
+          const midColor = [255, 255, 0]; // 노란색
           const maxColor = [255, 0, 0]; // 빨간색
 
           const normalizedSize = (size - MINIMAL_NODE_SIZE) / (MAX_NODE_SIZE - MINIMAL_NODE_SIZE);
 
-          const adjustedSize = Math.pow(normalizedSize, 3);
-
           const color = [
-            Math.round(minColor[0] + adjustedSize * (maxColor[0] - minColor[0])),
-            Math.round(minColor[1] + adjustedSize * (maxColor[1] - minColor[1])),
-            Math.round(minColor[2] + adjustedSize * (maxColor[2] - minColor[2])),
+            Math.round((1 - normalizedSize) * minColor[0] + normalizedSize * midColor[0]),
+            Math.round((1 - normalizedSize) * minColor[1] + normalizedSize * midColor[1]),
+            Math.round((1 - normalizedSize) * minColor[2] + normalizedSize * midColor[2]),
           ];
 
           return `rgb(${color[0]}, ${color[1]}, ${color[2]})`;
