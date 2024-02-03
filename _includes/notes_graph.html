@@ -52,7 +52,7 @@
       document.body.appendChild(oScript);
       oScript.onload = () => {
         const MINIMAL_NODE_SIZE = 8;
-        const MAX_NODE_SIZE = 50;
+        const MAX_NODE_SIZE = 100;
         const ACTIVE_RADIUS_FACTOR = 1.5;
         const STROKE = 1;
         const FONT_SIZE = 16;
@@ -73,7 +73,7 @@
               3 *
               Math.sqrt(
                 linksData.filter((l) => l.source.id === el.id || l.target.id === el.id)
-                  .length + 3
+                  .length + 10
               );
             if (weight < MINIMAL_NODE_SIZE) {
               weight = MINIMAL_NODE_SIZE;
