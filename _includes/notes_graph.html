@@ -52,7 +52,7 @@
       document.body.appendChild(oScript);
       oScript.onload = () => {
         const MINIMAL_NODE_SIZE = 8;
-        const MAX_NODE_SIZE = 100;
+        const MAX_NODE_SIZE = 15;
         const ACTIVE_RADIUS_FACTOR = 1.5;
         const STROKE = 1;
         const FONT_SIZE = 16;
@@ -73,7 +73,7 @@
               3 *
               Math.sqrt(
                 linksData.filter((l) => l.source.id === el.id || l.target.id === el.id)
-                  .length + 10
+                  .length + 2
               );
             if (weight < MINIMAL_NODE_SIZE) {
               weight = MINIMAL_NODE_SIZE;
@@ -316,20 +316,19 @@
         }
 
         function calculateColorBasedOnSize(size) {
-          const minColor = [0, 0, 255]; // 파란색
-          const maxColor = [255, 0, 0]; // 빨간색
+            const minColor = [0, 0, 255]; // 파란색
+            const maxColor = [255, 0, 0]; // 빨간색
 
-          const normalizedSize = (size - MINIMAL_NODE_SIZE) / (MAX_NODE_SIZE - MINIMAL_NODE_SIZE);
+            const normalizedSize = (size - MINIMAL_NODE_SIZE) / (MAX_NODE_SIZE - MINIMAL_NODE_SIZE);
 
-          // 큰 차이가 있을 때는 더 큰 색상 변화, 작은 차이가 있을 때는 미세한 색상 변화를 주도록 조절
+            const color = [
+              Math.round(minColor[0] + normalizedSize * (maxColor[0] - minColor[0])),
+              Math.round(minColor[1] + normalizedSize * (maxColor[1] - minColor[1])),
+              Math.round(minColor[2] + normalizedSize * (maxColor[2] - minColor[2])),
+            ];
 
-          const color = [
-            Math.round((1 - normalizedSize) * minColor[0] + normalizedSize * maxColor[0]),
-            Math.round((1 - normalizedSize) * minColor[1] + normalizedSize * maxColor[1]),
-            Math.round((1 - normalizedSize) * minColor[2] + normalizedSize * maxColor[2]),
-          ];
-
-          return `rgb(${color[0]}, ${color[1]}, ${color[2]})`;
+            return `rgb(${color[0]}, ${color[1]}, ${color[2]})`;
+          }
         }
       }
     }
