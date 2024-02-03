@@ -321,7 +321,7 @@
 
           const normalizedSize = (size - MINIMAL_NODE_SIZE) / (MAX_NODE_SIZE - MINIMAL_NODE_SIZE);
 
-          const adjustedSize = Math.pow(normalizedSize, 2);
+          const adjustedSize = Math.pow(normalizedSize, 3);
 
           const color = [
             Math.round(minColor[0] + adjustedSize * (maxColor[0] - minColor[0])),
