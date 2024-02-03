@@ -321,10 +321,13 @@
 
           const normalizedSize = (size - MINIMAL_NODE_SIZE) / (MAX_NODE_SIZE - MINIMAL_NODE_SIZE);
 
+          // 큰 차이가 있을 때는 더 큰 색상 변화, 작은 차이가 있을 때는 미세한 색상 변화를 주도록 조절
+          const adjustedSize = Math.pow(normalizedSize, 2);
+
           const color = [
-            Math.round((1 - normalizedSize) * minColor[0] + normalizedSize * maxColor[0]),
-            Math.round((1 - normalizedSize) * minColor[1] + normalizedSize * maxColor[1]),
-            Math.round((1 - normalizedSize) * minColor[2] + normalizedSize * maxColor[2]),
+            Math.round((1 - adjustedSize) * minColor[0] + adjustedSize * maxColor[0]),
+            Math.round((1 - adjustedSize) * minColor[1] + adjustedSize * maxColor[1]),
+            Math.round((1 - adjustedSize) * minColor[2] + adjustedSize * maxColor[2]),
           ];
 
           return `rgb(${color[0]}, ${color[1]}, ${color[2]})`;
