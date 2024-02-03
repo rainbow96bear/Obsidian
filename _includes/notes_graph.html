@@ -315,17 +315,18 @@
           return str.substr(0, str.lastIndexOf(separator, maxLen)) + '...';
         }
 
-        // 추가: 노드의 크기에 따라 색상을 계산하는 예시
         function calculateColorBasedOnSize(size) {
           const minColor = [0, 0, 255]; // 파란색
           const maxColor = [255, 0, 0]; // 빨간색
 
           const normalizedSize = (size - MINIMAL_NODE_SIZE) / (MAX_NODE_SIZE - MINIMAL_NODE_SIZE);
 
+          const adjustedSize = Math.pow(normalizedSize, 2);
+
           const color = [
-            Math.round(minColor[0] + normalizedSize * (maxColor[0] - minColor[0])),
-            Math.round(minColor[1] + normalizedSize * (maxColor[1] - minColor[1])),
-            Math.round(minColor[2] + normalizedSize * (maxColor[2] - minColor[2])),
+            Math.round(minColor[0] + adjustedSize * (maxColor[0] - minColor[0])),
+            Math.round(minColor[1] + adjustedSize * (maxColor[1] - minColor[1])),
+            Math.round(minColor[2] + adjustedSize * (maxColor[2] - minColor[2])),
           ];
 
           return `rgb(${color[0]}, ${color[1]}, ${color[2]})`;
