@@ -92,7 +92,7 @@ client에 전달할 정보에 대한 자료 구조와 json 변환에 대한 key 
 -----
 
 # 참고 자료
-- https://gallery-k.tistory.com/310 : 레이어드 아키텍처 패턴
-- https://www.joinc.co.kr/w/man/12/golang/robust : golang 구조화
-- https://velog.io/@qowl880/ControllerServiceRepository-%EC%B0%A8%EC%9D%B4%EC%A0%90 : controller - service - repository 개념
-- https://frozenpond.tistory.com/113 : 파일 구조 참고
+- [https://gallery-k.tistory.com/310](https://gallery-k.tistory.com/310) : 레이어드 아키텍처 패턴
+- [https://www.joinc.co.kr/w/man/12/golang/robust](https://www.joinc.co.kr/w/man/12/golang/robust) : golang 구조화
+- [https://velog.io/@qowl880/ControllerServiceRepository-%EC%B0%A8%EC%9D%B4%EC%A0%90](https://velog.io/@qowl880/ControllerServiceRepository-%EC%B0%A8%EC%9D%B4%EC%A0%90) : controller - service - repository 개념
+- [https://frozenpond.tistory.com/113](https://frozenpond.tistory.com/113) : 파일 구조 참고
