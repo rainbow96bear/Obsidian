@@ -75,7 +75,7 @@ k := User{
 -----
 
 # 참고 자료
-- https://go.dev/blog/package-names
-- https://github.com/TangoEnSkai/uber-go-style-guide-kr
-- https://github.com/golang-standards/project-layout/blob/master/README_ko.md
-- https://jacking75.github.io/go-0515/
+- [https://go.dev/blog/package-names](https://go.dev/blog/package-names)
+- [https://github.com/TangoEnSkai/uber-go-style-guide-kr](https://github.com/TangoEnSkai/uber-go-style-guide-kr)
+- [https://github.com/golang-standards/project-layout/blob/master/README_ko.md](https://github.com/golang-standards/project-layout/blob/master/README_ko.md)
+- [https://jacking75.github.io/go-0515/](https://jacking75.github.io/go-0515/)

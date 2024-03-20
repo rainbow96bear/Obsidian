@@ -43,5 +43,5 @@ Query의 경우 URL에 작성되기 때문에 노출이 되어있고 이러한 �
 -----
 
 # 참고 자료
-- https://whales.tistory.com/120#google_vignette
-- https://todaycode.tistory.com/170
+- [https://whales.tistory.com/120#google_vignette](https://whales.tistory.com/120#google_vignette)
+- [https://todaycode.tistory.com/170](https://todaycode.tistory.com/170)

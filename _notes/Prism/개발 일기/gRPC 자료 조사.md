@@ -78,7 +78,7 @@ gRPC 서비스를 정의하고 원격에서 호출 가능한 메서드를 포함
 
 # 참고 자료
 - [https://grpc.io/docs/what-is-grpc/introduction/](https://grpc.io/docs/what-is-grpc/introduction/): gRPC docs - gRPC 소개
-- https://protobuf.dev/overview/ : 프로토콜 버퍼 document - 프로토콜 버퍼 소개
+- [https://protobuf.dev/overview/](https://protobuf.dev/overview/) : 프로토콜 버퍼 document - 프로토콜 버퍼 소개
 - 실무에 바로 쓰는 go언어 핸즈온 가이드(책)
-- https://grpc.io/blog/postman-grpcweb/ : gRPC가 websocket을 대체할 수 있는가?
-- https://blog.banksalad.com/tech/making-typescript-grpc-stub-generator/ : gRPC-web을 사용하는 방법
+- [https://grpc.io/blog/postman-grpcweb/](https://grpc.io/blog/postman-grpcweb/) : gRPC가 websocket을 대체할 수 있는가?
+- [https://blog.banksalad.com/tech/making-typescript-grpc-stub-generator/](https://blog.banksalad.com/tech/making-typescript-grpc-stub-generator/) : gRPC-web을 사용하는 방법

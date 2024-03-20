@@ -28,4 +28,4 @@ Query parameter는 HTTP의 GET, DELETE 요청에서만 사용하고 유일 값�
 -----
 
 # 참고 자료
-- https://velog.io/@juno97/API-Path-parameter-VS-Query-Parameter-%EA%B8%B0%EB%A1%9D%EC%9A%A9
+- [https://velog.io/@juno97/API-Path-parameter-VS-Query-Parameter-%EA%B8%B0%EB%A1%9D%EC%9A%A9](https://velog.io/@juno97/API-Path-parameter-VS-Query-Parameter-%EA%B8%B0%EB%A1%9D%EC%9A%A9)

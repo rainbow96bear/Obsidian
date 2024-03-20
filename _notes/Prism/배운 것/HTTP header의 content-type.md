@@ -47,5 +47,5 @@ form-data는 주로 HTML 폼에서 파일 업로드와 함께 텍스트 데이�
 -----
 
 # 참고 자료
-- https://lena-chamna.netlify.app/post/http_multipart_form-data/
-- https://eastash.me/http-multipartform-data-feat-react-express-multer
+- [https://lena-chamna.netlify.app/post/http_multipart_form-data/](https://lena-chamna.netlify.app/post/http_multipart_form-data/)
+- [https://eastash.me/http-multipartform-data-feat-react-express-multer](https://eastash.me/http-multipartform-data-feat-react-express-multer)
