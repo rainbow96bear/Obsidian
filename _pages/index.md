@@ -25,6 +25,9 @@ permalink: /
 	    <span style="font-weight: bold">[[NFT를 위한 SNS]]</span>
     </ul>
 <h3> 공부 기록 </h3>
+	   <ul style="font-weight: bold">
+	    <span style="font-weight: bold">[[ICP (Internet Computer Protocol)]]</span>
+    </ul>
 	  <ul>
 		  <span style="font-weight: bold"><a href="https://www.youtube.com/channel/UCz7xhiKgrdhwFRxfvpnUriw">혼자하는 우테코</a></span>
 	  </ul>
@@ -44,6 +47,9 @@ permalink: /
   <h3>활동</h3>
 	  <ul>
 		  <span style="font-weight: bold"><a href="https://rainbow96bear.tistory.com/entry/%EC%84%9C%ED%8F%AC%ED%84%B0%EC%A6%88-%EC%9C%84%ED%8D%BC%EB%B8%94%EB%A6%AD-%EC%84%9C%ED%8F%AC%ED%84%B0%EC%A6%88-%EB%B0%9C%EB%8C%80%EC%8B%9D">위퍼블릭(DAO) 서포터즈</a></span>
+	  </ul>
+	  <ul>
+		  <span style="font-weight: bold"><a href="https://rainbow96bear.tistory.com/entry/ICP-ICP-Hacker-House-%EC%B0%B8%EA%B0%80-%ED%9B%84%EA%B8%B0">ICP Hacker House 참가 후기</a></span>
 	  </ul>
 	  <ul>
 		  <span style="font-weight: bold"><a href="https://rainbow96bear.tistory.com/entry/%EC%B2%B4%ED%97%98%EB%8B%A8-2023-%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EB%88%84%EB%A6%AC%EB%8B%A8-%EB%A6%AC%EC%82%AC%EC%9D%B4%ED%81%B4-%EB%A0%9B%EC%A0%80-%EC%B2%B4%ED%97%98-%ED%9B%84%EA%B8%B0">블록체인 누리단</a></span></ul>
