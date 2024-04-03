@@ -25,6 +25,12 @@ permalink: /
 	    <span style="font-weight: bold">[[NFT를 위한 SNS]]</span>
     </ul>
 <h3> 공부 기록 </h3>
+	<ul style="font-weight: bold">
+	    <span style="font-weight: bold">[[solana 공부]]</span>
+    </ul>
+    <ul style="font-weight: bold">
+	    <span style="font-weight: bold">[[Sui blockchain 공부]]</span>
+    </ul>
 	   <ul style="font-weight: bold">
 	    <span style="font-weight: bold">[[ICP (Internet Computer Protocol)]]</span>
     </ul>
