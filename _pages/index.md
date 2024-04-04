@@ -52,6 +52,10 @@ permalink: /
 	  
   <h3>활동</h3>
 	  <ul>
+		  <span style="font-weight: bold">
+			  [[10억 줄 처리 챌린지]]
+		  </span>
+	  <ul>
 		  <span style="font-weight: bold"><a href="https://rainbow96bear.tistory.com/entry/%EC%84%9C%ED%8F%AC%ED%84%B0%EC%A6%88-%EC%9C%84%ED%8D%BC%EB%B8%94%EB%A6%AD-%EC%84%9C%ED%8F%AC%ED%84%B0%EC%A6%88-%EB%B0%9C%EB%8C%80%EC%8B%9D">위퍼블릭(DAO) 서포터즈</a></span>
 	  </ul>
 	  <ul>
