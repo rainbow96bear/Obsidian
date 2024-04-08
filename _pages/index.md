@@ -28,8 +28,12 @@ permalink: /
 		<span style="font-weight: bold">[[NFT를 위한 SNS]]</span>
 	</ul>
 	
-<h3>수상</h3>
-	<ul>블록체인 누리단 혁신 우수상</ul>
+<h3> 공모전 </h3>
+	<ul>
+		<span style="font-weight: bold">
+		[[붕빵이 유니버스 공모전]] - 결과 발표 2024.06.12
+		</span>
+	</ul>
 	
 <h3> 공부 기록 </h3>
 	<ul style="font-weight: bold">
@@ -47,8 +51,6 @@ permalink: /
 	<ul style="font-weight: bold">무중단 배포를 위한 쿠버네티스 공부 : 
 		<span style="font-weight: bold">[[Kubernetes 공부 기록]]</span>
 	</ul>
-
-
 
 <h3>활동</h3>
 	<ul>
