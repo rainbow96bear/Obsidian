@@ -6,7 +6,7 @@
 
 맞은 역할 : blockchain에서 crawling 한 data를 dex 사이트에 거래를 위한 data 전달 api 작업   
 
-백엔드 플로우 : <img src="/assets/흐름도.png">
+백엔드 플로우 : <img src="/assets/흐름도.png"><img src="/assets/Pasted image 20231204232521.png">
 
 
 # abi

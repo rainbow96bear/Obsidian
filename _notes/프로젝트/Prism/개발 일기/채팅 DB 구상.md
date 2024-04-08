@@ -38,4 +38,4 @@
 -----
 # 참고자료
 - [https://gyoogle.dev/blog/computer-science/data-base/SQL%20&%20NOSQL.html](https://gyoogle.dev/blog/computer-science/data-base/SQL%20&%20NOSQL.html): SQL과 NoSQL 비교
-- https://velog.io/@chosj1526/NoSQL%EC%9D%B4%EB%9E%80](https://velog.io/@chosj1526/NoSQL%EC%9D%B4%EB%9E%80): NoSQL의 장단점과 특징
+- [https://velog.io/@chosj1526/NoSQL%EC%9D%B4%EB%9E%80](https://velog.io/@chosj1526/NoSQL%EC%9D%B4%EB%9E%80): NoSQL의 장단점과 특징
