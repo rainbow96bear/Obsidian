@@ -7,7 +7,11 @@
 
 백엔드 플로우 : <img src="/assets/Pasted image 20240410114930.png">
 
-flow : Buy 또는 Sell tx 확인 -> contract의 get_orderbook call하여 정보 받기 -> for문으로 orderbook마다 asks와 bids를 api-server에 전달
+flow : Buy 또는 Sell tx 확인 -> contract의 get_orderbook call하여 정보 받기 -> for문으로 orderbook마다 asks와 bids를 api-server에 전달 + chart 정보 전달
+
+필요한 작업 :
+- api-server : AddData switch case 추가 (Buy, Sell 등에 대한 정보 처리용)
+- high와 low에 대한 정보 처리 방법
 # ABI
 - [[vault]]
 - [[orderbook]]

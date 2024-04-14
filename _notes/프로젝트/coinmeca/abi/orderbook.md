@@ -14,6 +14,7 @@
 	`-> {uint256 price, uint256 balance}`
 - `get_info()`
 	`-> {address, address, uint256, uint256, uint8, bool}`
+		`base, quote, price, tick, fee, lock이 아닐까 추측`
 - `get_nft()`
 	`-> {address}`
 - `get_orderbook(uint8 _range)`

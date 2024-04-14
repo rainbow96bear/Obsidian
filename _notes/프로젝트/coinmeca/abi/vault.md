@@ -7,7 +7,7 @@
 - `_Deposit(uint256 amount, uint256 quantity, uint256 proof)`
 # view
 - `get_all()`
-	`-> {bool key, address addr, string name, string symbol, uint8 decimals, uint256 treasury, uint256 rate, int256 need}`
+	`-> {bool key, address addr, string name, string symbol, uint8 decimals, uint256 treasury, uint256 rate, uint256 weight, int256 need}`
 - `get_key_tokens()`
 	`->{bool key, address addr, string name, string symbol, uint8 decimals, uint256 treasury, uint256 rate, uint256 weight, int256 need}`
 - `get_liquidity(address _base, address _quote)`

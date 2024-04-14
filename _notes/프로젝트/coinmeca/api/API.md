@@ -13,4 +13,13 @@ type MarketLast {
 	chart: MarketChart
 	volume: [MarketVolume]
 }
+
+//chart에 대한 정보 최신화
+type MarketChartPrice {
+	time: Int!
+	open: Int!
+	high: Int!
+	low: Int!
+	close: Int!
+}
 ```
