@@ -1,6 +1,33 @@
+Frontend : **React(Typescript)**
+Backend : **Golang**
+DB : **MySQL**
+
 # 프로젝트 기획
 
 <embed src="/assets/프리즘A4.pdf" width="800px" height="600px" type="application/pdf">
+
+# 작업 결과
+<img src="/assets/ezgif.com-video-to-gif.gif">
+<img src="/assets/ezgif.com-video-to-gif-converted (1).gif">
+1. 카카오 로그인 이후 /admin으로 이동하여 로그인
+2. admin id와 rank를 확인
+3. 관리자 로그아웃 이후 /admin 관련 path로 접근 시 /admin로 강제 이동
+4. 카카오 로그아웃 이후 /admin 접근 시 /로 강제 이동
+
+<img src="/assets/ezgif.com-video-to-gif-converted (2).gif">
+1. 추가 버튼으로 기술 추가
+2. 수정을 통하여 값 수정
+3. 중복된 코드 입력 시 alter로 경고
+<img src="/assets/rainbowbear_20240124_222115.gif">
+
+# 배운 것
+- [[UUID와 ULID]]   
+- [[Bcrypto]]   
+- [[레인보우 테이블]]   
+- [[golang 스타일 가이드]]
+- [[HTTP 메서드 GET과 POST 차이]]
+- [[HTTP header의 content-type]]
+- [[query parameter와 path parameter]]
 
 # 개발 일기
 1. [[Header 기본 틀]] - 2023/12/01
@@ -28,17 +55,6 @@
 23. [[채팅 DB 구상]] - 2024/03/20
 
 
-# 배운 것
-- [[UUID와 ULID]]   
-- [[Bcrypto]]   
-- [[레인보우 테이블]]   
-- [[golang 스타일 가이드]]
-- [[HTTP 메서드 GET과 POST 차이]]
-- [[HTTP header의 content-type]]
-- [[query parameter와 path parameter]]
-
 # GitHub repository
 <span style="font-weight: bold"><a href="https://github.com/rainbow96bear/Prism">Prisme repository</a></span>
-
-# [[테스트 코드 모음]]
 
