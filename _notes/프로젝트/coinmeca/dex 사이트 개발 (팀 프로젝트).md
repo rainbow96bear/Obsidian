@@ -1,5 +1,13 @@
-server : **Golang**
-DB : **mongoDB**
+# 기술 스택
+### server
+
+Golang
+
+### DB
+
+mongoDB
+
+-----
 
 기간 : 2024.04.06 ~ 진행중
 

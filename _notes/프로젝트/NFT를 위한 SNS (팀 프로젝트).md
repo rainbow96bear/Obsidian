@@ -1,21 +1,3 @@
-# 프로젝트 목표
-
-- React, Node.js(express), DB 활용 및 Metamask & Geth & Pinata 등을 결합한 BlockChain 거래소 코딩으로 이전에 학습한 내용 복습
-
----
-
-# 기간
-
-2023.03.20 ~ 2023.03.30
-
----
-
-# 프로젝트 GitHub
-
-[NFT인스타그램](https://github.com/rainbow96bear/NFstart)
-
----
-
 # 기술 스택
 ### FrontEnd
 
@@ -23,13 +5,28 @@ React, JavaScript, Web3js, styled-components
 
 ### BackEnd
 
-Nodejs, mySQL, PM2, Sequelize, TypeScript, nodemon
+Nodejs, PM2, Sequelize, TypeScript, nodemon
+
+### DB
+
+MySQL
 
 ### Contract
 
 Solidity, Remix
 
 -----
+# 프로젝트 목표
+
+- React, Node.js(express), DB 활용
+- Metamask & Geth & Pinata 등을 결합한 BlockChain 거래소 구현
+
+---
+# 기간
+
+2023.03.20 ~ 2023.03.30
+
+---
 # 역할
 
 - 아이디어 기획
@@ -43,3 +40,9 @@ Solidity, Remix
 <img src="/assets/Pasted image 20231129162700.png">
 <img src="/assets/Pasted image 20231129162652.png">
 <img src="/assets/Pasted image 20231129162641.png">
+
+---
+
+# 프로젝트 GitHub
+
+[NFT인스타그램](https://github.com/rainbow96bear/NFstart)

@@ -1,6 +1,17 @@
-Frontend : **React(Typescript)**
-Backend : **Golang**
-DB : **MySQL**
+# 기술 스택
+### FrontEnd
+
+React(Typescript)
+
+### BackEnd
+
+golang
+
+### DB
+
+Mysql
+
+-----
 
 # 프로젝트 기획
 

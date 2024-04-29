@@ -7,26 +7,29 @@ permalink: /
 
 # 🌈 무지개곰의 포트폴리오
 <div>
-<ul>
-	<li>
-		공부중인 스택 : Golang, MongoDB, GraphQL
-	</li>
-	<li>
-		사용해본 언어 : TypeScript, JavaScript, C++, JAVA   
-	</li>
-	<li>
-		사용해본 프레임 워크 : Express(Node.js)
-	</li>
-	<li>
-		사용해본 DB : MySQL   
-	</li>
-</ul>
-
+<div>
+	공부중인 스택 : Golang, MongoDB, GraphQL
+</div>
+<div>
+	사용해본 언어 : TypeScript, JavaScript, C++, JAVA   
+</div>
+<div>
+	사용해본 프레임 워크 : Express(Node.js)
+</div>
+<div>
+	사용해본 DB : MySQL   
+</div>
+<br>
+<hr>
+<br>
 <h3>진행중인 목표</h3>
 
-<ol>프로젝트 경험 쌓기
-	<li>Dex 사이트 개발에 참여하여 Golang을 활용한 block scan 작업 진행중 - [[dex 사이트 개발]]</li>
-</ol>
+<ul>
+	<li>프로젝트 경험 쌓기</li>
+	<ol>
+		<li>Dex 사이트 개발에 참여하여 Golang을 활용한 block scan 작업 진행중 - [[dex 사이트 개발]]</li>
+	</ol>
+</ul>
 
 <h3>달성한 목표</h3>
 
@@ -35,7 +38,9 @@ permalink: /
 	<li>기본 영어 회화를 위한 Opic IM2 - 2023.08달성</li>
 	<li>공모전 도전 (컴투스 [[붕빵이 유니버스 공모전]] - 2024.06.12 발표 예정)</li>
 </ol>
-
+<br>
+<hr>
+<br>
 <h3>배우고 싶은 기술스택</h3>
 
 <h4>Golang</h4>
@@ -52,7 +57,9 @@ permalink: /
 	<li>네트워크에 대한 전반적인 지식을 쌓을 수 있을 것으로 기대</li>
 	<li>프로젝트 배포 및 관리에 유용할 것이라고 생각되어 실무에서 강점을 가질 수 있을 것으로 기대</li>
 </ol>
-
+<br>
+<hr>
+<br>
 <h3> 프로젝트 기록 </h3>
 <ul>
 	<li>
@@ -68,23 +75,18 @@ permalink: /
 		<span style="font-weight: bold">[[NFT를 위한 SNS]]</span>
 	</li>
 </ul>
+<br>
+<hr>
+<br>
 <h3> 공모전 </h3>
 <ul>
 	<li>
 		<span style="font-weight: bold">[[붕빵이 유니버스 공모전]] - 결과 발표 2024.06.12</span>
 	</li>
 </ul>
-	
-<h3> 공부 기록 </h3>
-<ul>
-	<li>
-		<span style="font-weight: bold">[[CS 6대 과목]]</span>
-	</li>
-	<li>
-		<span style="font-weight: bold">[[Kubernetes 공부 기록]]</span>
-	</li>
-</ul>
-
+<br>
+<hr>
+<br>
 <h3>활동</h3>
 <ul>
 	<li>
@@ -102,7 +104,9 @@ permalink: /
 		</span>
 	</li>
 </ul>
-
+<br>
+<hr>
+<br>
 <h3> 기록 </h3>
 <ul>
 	<li>
