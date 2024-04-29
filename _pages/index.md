@@ -7,6 +7,7 @@ permalink: /
 
 # 🌈 무지개곰의 포트폴리오
 <div>
+<br>
 <div>
 	공부중인 스택 : Golang, MongoDB, GraphQL
 </div>
@@ -27,7 +28,7 @@ permalink: /
 <ul>
 	<li>프로젝트 경험 쌓기</li>
 	<ol>
-		<li>Dex 사이트 개발에 참여하여 Golang을 활용한 block scan 작업 진행중 - [[dex 사이트 개발]]</li>
+		<li>Dex 사이트 개발에 참여하여 Golang을 활용한 block scan 작업 진행중 - [[dex 사이트 개발 (팀 프로젝트)]]</li>
 	</ol>
 </ul>
 
@@ -63,16 +64,16 @@ permalink: /
 <h3> 프로젝트 기록 </h3>
 <ul>
 	<li>
-		<span style="font-weight: bold">[[dex 사이트 개발]]</span>
+		<span style="font-weight: bold">[[dex 사이트 개발 (팀 프로젝트)]]</span>
 	</li>
 	<li>
-		<span style="font-weight: bold">[[Prism (포트폴리오 공유 SNS)]]</span>
+		<span style="font-weight: bold">[[포트폴리오 공유 SNS (개인 프로젝트)]]</span>
 	</li>
 	<li>
-		<span style="font-weight: bold">[[GIF 변환기]]</span>
+		<span style="font-weight: bold">[[GIF 변환기 (개인 프로젝트)]]</span>
 	</li>
 	<li>
-		<span style="font-weight: bold">[[NFT를 위한 SNS]]</span>
+		<span style="font-weight: bold">[[NFT를 위한 SNS (팀 프로젝트)]]</span>
 	</li>
 </ul>
 <br>
