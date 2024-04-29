@@ -58,7 +58,6 @@ permalink: /
 </ol>
 <br>
 <hr>
-<br>
 <h3> 프로젝트 기록 </h3>
 <ul>
 	<li>
@@ -76,7 +75,6 @@ permalink: /
 </ul>
 <br>
 <hr>
-<br>
 <h3> 공모전 </h3>
 <ul>
 	<li>
@@ -85,7 +83,6 @@ permalink: /
 </ul>
 <br>
 <hr>
-<br>
 <h3>활동</h3>
 <ul>
 	<li>
@@ -105,7 +102,6 @@ permalink: /
 </ul>
 <br>
 <hr>
-<br>
 <h3> 기록 </h3>
 <ul>
 	<li>
@@ -124,22 +120,6 @@ permalink: /
 <br>
 <br>
 </div>
-
-
-<div class="graph_background">
-<div>{% include notes_graph.html %}</div>
-</div>
-
-<strong>Recently updated notes</strong>
-
-<ul>
-{% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
-{% for note in recent_notes limit: 5 %}
-<li>
-{{ note.last_modified_at | date: "%Y-%m-%d" }} — <a class="internal-link" href="{{ note.url }}">{{ note.title }}</a>
-</li>
-{% endfor %}
-</ul>
 
 <style>
 .wrapper {
