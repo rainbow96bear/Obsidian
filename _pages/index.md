@@ -20,7 +20,6 @@ permalink: /
 <div>
 	사용해본 DB : MySQL   
 </div>
-<br>
 <hr>
 <h3>진행중인 목표</h3>
 
