@@ -22,7 +22,6 @@ permalink: /
 </div>
 <br>
 <hr>
-<br>
 <h3>진행중인 목표</h3>
 
 <ul>
@@ -41,7 +40,6 @@ permalink: /
 </ol>
 <br>
 <hr>
-<br>
 <h3>배우고 싶은 기술스택</h3>
 
 <h4>Golang</h4>
