@@ -8,6 +8,8 @@ permalink: /
 # 🌈 무지개곰의 포트폴리오
 <div>
 <br>
+E-mail : rainbow96bear@gmail.com
+<hr>
 <div>
 	공부중인 스택 : Golang, MongoDB, GraphQL
 </div>
@@ -27,18 +29,19 @@ permalink: /
 <h3>진행중인 목표</h3>
 
 <ul>
-	<li>프로젝트 경험 쌓기</li>
+	<li>블록체인 시장 이해</li>
 	<ol>
-		<li>Dex 사이트 개발에 참여하여 Golang을 활용한 block scan 작업 진행중 - [[dex 사이트 개발 (팀 프로젝트)]]</li>
+		<li>책 : [[NFT 디지털 자산의 미래]] 정리</li>
 	</ol>
 </ul>
 
 <h3>달성한 목표</h3>
 
 <ol>
+	<li>DEX 개발 참여 [[dex 사이트 개발 (팀 프로젝트)]]</li>
+	<li>공모전 도전 (컴투스 [[붕빵이 유니버스 공모전]] - 2024.06.12 발표 예정)</li>
 	<li>SQLD에 도전하여 DBMS의 기본기 다지기 - 2023.12 취득</li>
 	<li>기본 영어 회화를 위한 Opic IM2 - 2023.08달성</li>
-	<li>공모전 도전 (컴투스 [[붕빵이 유니버스 공모전]] - 2024.06.12 발표 예정)</li>
 </ol>
 <hr>
 <h3>기능 개선 아이디어</h3>
