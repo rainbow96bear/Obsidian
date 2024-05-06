@@ -9,19 +9,19 @@ mongoDB
 
 -----
 
-기간 : 2024.04.06 ~ 진행중
-
-참여 계기 : 오픈 카톡방에서 golang기반 백엔드 구축 인원을 모집하여 개발 실력을 확인하고자 참가
+참여 계기 : 오픈 카톡방에서 golang기반 백엔드 구축 인원을 모집하여 경험을 쌓기 위하여 참가
 <img src="/assets/Pasted image 20240407211647.png">
 
-맡은 역할 : 블록 스캔하여 crawling 된 자료를 이벤트에 따라 분류하여 오더북 최신화 및 차트를 생성   
+맡은 역할 : 블록을 crawling하여 자료를 이벤트에 따라 분류하여 오더북 최신화 및 차트를 생성   
 
-백엔드 플로우 : <img src="/assets/Pasted image 20240410114930.png">
+백엔드 플로우 : <img src="/assets/Pasted image 20240502122535.png">
 
 flow : Buy 또는 Sell tx 확인 -> contract의 get_orderbook call하여 정보 받기 -> orderbook마다 asks와 bids를 api-server에 전달 + chart 정보 전달
 
 
 # mongoDB aggregate
+차트를 그리는 방법으로 1분봉에 대한 정보를 DB에 저장   
+5분봉, 1일봉 등 다른 종류의 차트의 경우 1분봉의 데이터를 묶어서 표시   
 ```go
 pipeline := []bson.M{
 	{

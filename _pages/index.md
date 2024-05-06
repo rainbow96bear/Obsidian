@@ -20,6 +20,9 @@ permalink: /
 <div>
 	사용해본 DB : MySQL   
 </div>
+<div>
+	배포 : AWS EC2   
+</div>
 <hr>
 <h3>진행중인 목표</h3>
 
@@ -42,6 +45,9 @@ permalink: /
 
 <ol>
 	<li>
+			[[메이플스토리]]
+	</li>
+	<li>
 			[[네이버 웹툰]]
 	</li>
 </ol>
@@ -51,16 +57,16 @@ permalink: /
 <h3> 프로젝트 기록 </h3>
 <ul>
 	<li>
-		<span style="font-weight: bold">[[dex 사이트 개발 (팀 프로젝트)]]</span>
+		<span style="font-weight: bold">[[dex 사이트 개발 (팀 프로젝트)]] 2024.04.06~2024.05.02</span>
 	</li>
 	<li>
-		<span style="font-weight: bold">[[포트폴리오 공유 SNS (개인 프로젝트)]]</span>
+		<span style="font-weight: bold">[[포트폴리오 공유 SNS (개인 프로젝트)]] 2023.11.29~진행중</span>
 	</li>
 	<li>
-		<span style="font-weight: bold">[[GIF 변환기 (개인 프로젝트)]]</span>
+		<span style="font-weight: bold">[[GIF 변환기 (개인 프로젝트)]] 2024.03.06~2024.03.07</span>
 	</li>
 	<li>
-		<span style="font-weight: bold">[[NFT를 위한 SNS (팀 프로젝트)]]</span>
+		<span style="font-weight: bold">[[NFT를 위한 SNS (팀 프로젝트)]] 2023.03.20~2023.04.01</span>
 	</li>
 </ul>
 <br>
@@ -77,16 +83,12 @@ permalink: /
 <ul>
 	<li>
 		<span style="font-weight: bold">
-		[[10억 줄 처리 챌린지]]
-		</span>
-	</li>
-	<li>
-		<span style="font-weight: bold">
-		[[위퍼블릭 DAO 활동]]
+		[[위퍼블릭 DAO 활동]] 2024.01.25~2024.04.12
 		</span>
 	</li>
 	<li>
 		<span style="font-weight: bold"><a href="https://rainbow96bear.tistory.com/entry/%EC%B2%B4%ED%97%98%EB%8B%A8-2023-%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EB%88%84%EB%A6%AC%EB%8B%A8-%EB%A6%AC%EC%82%AC%EC%9D%B4%ED%81%B4-%EB%A0%9B%EC%A0%80-%EC%B2%B4%ED%97%98-%ED%9B%84%EA%B8%B0">블록체인 누리단</a>
+		2023.09.01~2023.12.31
 		</span>
 	</li>
 </ul>
