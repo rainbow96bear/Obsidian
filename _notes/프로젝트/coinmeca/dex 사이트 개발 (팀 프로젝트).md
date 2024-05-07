@@ -20,7 +20,7 @@ flow : Buy 또는 Sell tx 확인 -> contract의 get_orderbook call하여 정보 
 
 
 # AMM과 Orderbook 장단점 비교
-<table>
+<table border="1">
   <tr>
     <th></th>
     <th>AMM</th>

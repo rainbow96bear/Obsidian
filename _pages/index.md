@@ -26,7 +26,7 @@ E-mail : rainbow96bear@gmail.com
 	배포 : AWS EC2   
 </div>
 <hr>
-<h3>진행중인 목표</h3>
+<h3>도메인 공부</h3>
 
 <ul>
 	<li>블록체인 시장 이해</li>
@@ -35,14 +35,6 @@ E-mail : rainbow96bear@gmail.com
 	</ol>
 </ul>
 
-<h3>달성한 목표</h3>
-
-<ol>
-	<li>DEX 개발 참여 [[dex 사이트 개발 (팀 프로젝트)]] -2024.04.06~2024.05.02</li>
-	<li>공모전 도전 (컴투스 [[붕빵이 유니버스 공모전]] - 2024.06.12 발표 예정)</li>
-	<li>SQLD에 도전하여 DBMS의 기본기 다지기 - 2023.12 취득</li>
-	<li>기본 영어 회화를 위한 Opic IM2 - 2023.08 달성</li>
-</ol>
 <hr>
 <h3>아이디어 기록</h3>
 
@@ -77,7 +69,7 @@ E-mail : rainbow96bear@gmail.com
 <h3> 공모전 </h3>
 <ul>
 	<li>
-		<span style="font-weight: bold">[[붕빵이 유니버스 공모전]] - 결과 발표 2024.06.12</span>
+		<span style="font-weight: bold">[[붕빵이 유니버스 공모전]]</span>
 	</li>
 </ul>
 <br>
