@@ -19,6 +19,25 @@ mongoDB
 flow : Buy 또는 Sell tx 확인 -> contract의 get_orderbook call하여 정보 받기 -> orderbook마다 asks와 bids를 api-server에 전달 + chart 정보 전달
 
 
+# AMM과 Orderbook 장단점 비교
+<table>
+  <tr>
+    <th></th>
+    <th>AMM</th>
+    <th>Orderbook</th>
+  </tr>
+  <tr>
+    <td>장점</td>
+    <td>- 가격 결정 자동화</td>
+    <td>- 슬리피지가 작다.</td>
+  </tr>
+  <tr>
+    <td>단점</td>
+    <td>- 유동성이 작은 pool의 경우 슬리피지가 크다.</td>
+    <td>- 주문 수정 혹은 취소 시 가스비가 추가적으로 필요하다.</td>
+  </tr>
+</table>
+
 # mongoDB aggregate
 차트를 그리는 방법으로 1분봉에 대한 정보를 DB에 저장   
 5분봉, 1일봉 등 다른 종류의 차트의 경우 1분봉의 데이터를 묶어서 표시   
