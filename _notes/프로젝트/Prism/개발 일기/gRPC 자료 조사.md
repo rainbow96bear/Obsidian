@@ -9,7 +9,7 @@
 
 # gRPC 소개
 gRPC는 서비스 정의, 매개변수 및 반환 유형을 사용하여 원격으로 호출할 수 있는 메서드를 지정한다는 아이디어를 기반으로 합니다.
-![[Pasted image 20240214180821.png]]
+<img src="/assets/Pasted image 20240214180821.png">
 gRPC 클라이언트와 서버는 Google 내의 서버부터 개인 데스크톱까지 다양한 환경에서 실행되어 서로 통신할 수 있으며, gRPC에서 지원하는 언어 중 어떤 것이든 사용하여 작성할 수 있습니다.
 
 ## gRPC와 net/rpc의 차이
@@ -71,7 +71,7 @@ gRPC 서비스를 정의하고 원격에서 호출 가능한 메서드를 포함
 
 -----
 # gRPC-Gateway
-![[Pasted image 20240219181244.png]]
+<img src="/assets/Pasted image 20240219181244.png">
 프론트엔드 플랫폼에서 HTTP 호출을 통해 간접적으로 gRPC 메시지를 소비하는 방법  
 
 -----

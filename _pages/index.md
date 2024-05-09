@@ -61,6 +61,9 @@ E-mail : rainbow96bear@gmail.com
 		<span style="font-weight: bold">[[GIF 변환기 (개인 프로젝트)]] 2024.03.06~2024.03.07</span>
 	</li>
 	<li>
+		<span style="font-weight: bold">[[GIF 변환기 (개인 프로젝트)]] 2024.03.06~2024.03.07</span>
+	</li>
+	<li>
 		<span style="font-weight: bold">[[NFT를 위한 SNS (팀 프로젝트)]] 2023.03.20~2023.04.01</span>
 	</li>
 </ul>
